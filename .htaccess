@@ -13,11 +13,11 @@
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /recoverize-wp/
+RewriteBase /recoverize-old/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /recoverize-wp/index.php [L]
+RewriteRule . /recoverize-old/index.php [L]
 </IfModule>
 
 # END WordPress
