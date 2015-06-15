@@ -5,9 +5,9 @@
 #
 # Author: Michael Conigliaro
 #
-WP_OWNER=wp # &lt;-- wordpress owner
-WP_GROUP=wp # &lt;-- wordpress group
-WP_ROOT=/usr/share/nginx/html/recoverize-wp # &lt;-- wordpress root directory
+WP_OWNER=dane # &lt;-- wordpress owner
+WP_GROUP=dane # &lt;-- wordpress group
+WP_ROOT=/home/dane/recoverize-wp # &lt;-- wordpress root directory
 WS_GROUP=www-data # &lt;-- webserver group
  
 # reset to safe defaults
