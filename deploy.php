@@ -14,3 +14,5 @@ $pull_output = shell_exec("git pull origin master");
 file_put_contents("./logs/deploy.log", $pull_output, FILE_APPEND);
 
 echo $pull_output;
+
+echo 'hooked';
