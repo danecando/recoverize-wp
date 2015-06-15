@@ -7,7 +7,7 @@
 
 //file_put_contents("./logs/deploy.log", $payload, FILE_APPEND);
 
-$pull_output = shell_exec("git pull origin master");
+$pull_output = `git pull origin master`;
 file_put_contents("./logs/deploy.log", $pull_output, FILE_APPEND);
 
 echo $pull_output;
