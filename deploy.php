@@ -1,5 +1,5 @@
 <?php
-$test = file_put_contents("test.txt", "testing");
+$test = file_put_contents("./logs/test.log", "testing");
 echo $test;
 
 $date = date_create();
@@ -12,3 +12,6 @@ file_put_contents("./logs/deploy.log", $payload, FILE_APPEND);
 
 $pull_output = shell_exec("git pull origin production");
 file_put_contents("./logs/deploy.log", $pull_output, FILE_APPEND);
+
+echo $pull_output;
+echo "\n updated";
