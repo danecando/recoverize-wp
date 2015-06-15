@@ -9,7 +9,7 @@ return array(
 	'cluster.messagebus.sns.api_secret' => '',
 	'cluster.messagebus.sns.topic_arn' => '',
 	'dbcache.debug' => false,
-	'dbcache.enabled' => false,
+	'dbcache.enabled' => true,
 	'dbcache.engine' => 'file',
 	'dbcache.file.gc' => 3600,
 	'dbcache.file.locking' => false,
@@ -25,8 +25,10 @@ return array(
 		0 => 'gdsr_',
 		1 => 'wp_rg_',
 		2 => '_wp_session_',
+		3 => '_wc_session_',
 	),
 	'dbcache.reject.uri' => array(
+		0 => '',
 	),
 	'dbcache.reject.words' => array(
 		0 => '^\\s*insert\\b',
@@ -256,7 +258,7 @@ return array(
 	),
 	'cdn.enabled' => false,
 	'cdn.debug' => false,
-	'cdn.engine' => 'cf2',
+	'cdn.engine' => 'cf',
 	'cdn.uploads.enable' => true,
 	'cdn.includes.enable' => true,
 	'cdn.includes.files' => '*.css;*.js;*.gif;*.png;*.jpg;*.xml',
@@ -298,10 +300,10 @@ return array(
 	'cdn.s3.cname' => array(
 	),
 	'cdn.s3.ssl' => 'auto',
-	'cdn.cf.key' => '',
-	'cdn.cf.secret' => '',
-	'cdn.cf.bucket' => '',
-	'cdn.cf.id' => '',
+	'cdn.cf.key' => 'AKIAIB6V74KVACMXQD3Q',
+	'cdn.cf.secret' => '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',
+	'cdn.cf.bucket' => 'recoverize-wp',
+	'cdn.cf.id' => 'd3i7hwg8bpisoq',
 	'cdn.cf.cname' => array(
 	),
 	'cdn.cf.ssl' => 'auto',
@@ -375,6 +377,7 @@ return array(
 		0 => '',
 	),
 	'cdn.reject.uri' => array(
+		0 => '',
 	),
 	'cdn.reject.files' => array(
 		0 => '{uploads_dir}/wpcf7_captcha/*',
@@ -626,7 +629,7 @@ return array(
 	'notes.theme_changed' => false,
 	'notes.wp_upgraded' => false,
 	'notes.plugins_updated' => false,
-	'notes.cdn_upload' => false,
+	'notes.cdn_upload' => true,
 	'notes.cdn_reupload' => false,
 	'notes.need_empty_pgcache' => false,
 	'notes.need_empty_minify' => false,

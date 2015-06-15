@@ -1,0 +1,11 @@
+<?php
+$date = date_create();
+$payload = date_format($date, 'U = Y-m-d H:i:s') . "\n" .
+           "=========== POST DATA ===========\n\n" .
+           $_POST .
+           "\n\n=========== END POST DATA ===========\n";
+
+file_put_contents("./logs/deploy.log", $payload, FILE_APPEND);
+
+$pull_output = shell_exec("git pull origin production");
+file_put_contents("./logs/deploy.log", $pull_output, FILE_APPEND);
