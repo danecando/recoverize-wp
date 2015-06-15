@@ -5,7 +5,7 @@ echo $test;
 $date = date_create();
 $payload = date_format($date, 'Y-m-d H:i:s') . "\n" .
            "=========== POST DATA ===========\n\n" .
-           var_dump($_POST) .
+           print_r(json_decode($_POST)) .
            "\n\n=========== END POST DATA ===========\n";
 
 file_put_contents("./logs/deploy.log", $payload, FILE_APPEND);
