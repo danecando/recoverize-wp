@@ -25,8 +25,10 @@ return array(
 		0 => 'gdsr_',
 		1 => 'wp_rg_',
 		2 => '_wp_session_',
+		3 => '_wc_session_',
 	),
 	'dbcache.reject.uri' => array(
+		0 => '',
 	),
 	'dbcache.reject.words' => array(
 		0 => '^\\s*insert\\b',
