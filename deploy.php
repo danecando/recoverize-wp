@@ -1,4 +1,7 @@
 <?php
+$test = file_put_contents("test.txt", "testing");
+echo $test;
+
 $date = date_create();
 $payload = date_format($date, 'U = Y-m-d H:i:s') . "\n" .
            "=========== POST DATA ===========\n\n" .
