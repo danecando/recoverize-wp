@@ -5,9 +5,9 @@
 #
 # Author: Michael Conigliaro
 #
-WP_OWNER=wp # &lt;-- wordpress owner
-WP_GROUP=wp # &lt;-- wordpress group
-WP_ROOT=/usr/share/nginx/html/recoverize-wp # &lt;-- wordpress root directory
+WP_OWNER=dane # &lt;-- wordpress owner
+WP_GROUP=dane # &lt;-- wordpress group
+WP_ROOT=/home/dane/recoverize-wp # &lt;-- wordpress root directory
 WS_GROUP=www-data # &lt;-- webserver group
  
 # reset to safe defaults
@@ -28,3 +28,6 @@ chmod 664 ${WP_ROOT}/.htaccess
 find ${WP_ROOT}/wp-content -exec chgrp ${WS_GROUP} {} \;
 find ${WP_ROOT}/wp-content -type d -exec chmod 775 {} \;
 find ${WP_ROOT}/wp-content -type f -exec chmod 664 {} \;
+
+# allow write to logs directory
+chmod 775 logs
