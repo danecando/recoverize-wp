@@ -4,3 +4,4 @@ wp-config.php
 node_modules/
 logs/
 deploy.php
+wp-content/cache/
