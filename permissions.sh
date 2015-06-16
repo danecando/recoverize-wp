@@ -14,6 +14,10 @@ WS_GROUP=www-data # &lt;-- webserver group
 find ${WP_ROOT} -exec chown ${WP_OWNER}:${WP_GROUP} {} \;
 find ${WP_ROOT} -type d -exec chmod 755 {} \;
 find ${WP_ROOT} -type f -exec chmod 664 {} \;
+
+# make sure repo is writeable
+find ${WP_ROOT}/.git -type d -exec chmod 775 {} \;
+find ${WP_ROOT}/.git -type f -exec chmod 664 {} \;
  
 # allow wordpress to manage wp-config.php (but prevent world access)
 chgrp ${WS_GROUP} ${WP_ROOT}/wp-config.php
