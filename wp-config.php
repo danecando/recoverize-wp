@@ -36,7 +36,10 @@ define('NONCE_SALT',       '?G^(Pw&]Tg}nh /2E@p&~m:l]VCJJ.p?lMnZjqek/Z_p1ck~ ;n-
 $table_prefix = 'wp_';
 
 
- 
+define( 'FTP_USER', 'rec' );
+define( 'FTP_PASS', 'Recoverize123#' );
+define( 'FTP_HOST', '104.237.128.45' );
+
 
 define('WP_DEBUG', false);
 
