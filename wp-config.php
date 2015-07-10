@@ -6,13 +6,13 @@ define('WP_CACHE', true); // Added by W3 Total Cache
 
 // ** MySQL settings ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'recoverize-wp');
+define('DB_NAME', 'recoverize_rd');
 
 /** MySQL database username */
-define('DB_USER', 'rec');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'Recoverize123#');
+define('DB_PASSWORD', 'root');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -38,7 +38,7 @@ $table_prefix = 'wp_';
 
  
 
-define('WP_DEBUG', false);
+define('WP_DEBUG', true);
 
 
 
