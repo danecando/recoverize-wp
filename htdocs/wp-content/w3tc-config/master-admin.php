@@ -4,7 +4,7 @@ return array(
 	'version' => '0.9.4.1',
 	'browsercache.configuration_sealed' => false,
 	'cdn.configuration_sealed' => false,
-	'common.install' => 1434302913,
+	'common.install' => 1436163947,
 	'common.visible_by_master_only' => true,
 	'dbcache.configuration_sealed' => false,
 	'minify.configuration_sealed' => false,
@@ -28,5 +28,5 @@ return array(
 	'notes.remove_w3tc' => false,
 	'notes.hide_extensions' => array(
 	),
-	'evaluation.reminder' => 1434907731,
+	'evaluation.reminder' => 0,
 );
