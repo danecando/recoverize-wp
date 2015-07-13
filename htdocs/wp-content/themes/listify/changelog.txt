@@ -1,7 +1,5 @@
 == Changelog ==
 
-owned
-
 = 1.0.4: May 27, 2015 =
 
 * New: Add comments to inline gallery viewer.

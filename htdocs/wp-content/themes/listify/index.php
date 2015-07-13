@@ -10,7 +10,7 @@
  *
  * @package Listify
  */
-
+//
 get_header(); ?>
 
 	<?php if ( is_home() ) : ?>
