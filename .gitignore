@@ -11,4 +11,4 @@ wp-content/w3tc-config
 db.php
 advanced-cache.php
 w3-total-cache-config.php
-nginx/nginx.conf
+conf/nginx/nginx.conf
