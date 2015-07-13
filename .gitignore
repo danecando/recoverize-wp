@@ -1,8 +1,8 @@
 wp-config.php
-/license.txt
-.idea/
-node_modules/
-logs/
+license.txt
+.idea
+node_modules
+logs
 deploy.php
-wp-content/cache/
-wp-content/upgrade/
+wp-content/cache
+wp-content/upgrade
