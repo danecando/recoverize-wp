@@ -4,11 +4,11 @@ wp-config.php
 node_modules
 logs/
 deploy.php
-wp-content/plugins
-wp-content/cache
-wp-content/upgrade
-wp-content/uploads
-wp-content/w3tc-config
+/htdocs/wp-content/plugins
+/htdocs/wp-content/cache
+/htdocs/wp-content/upgrade
+/htdocs/wp-content/uploads
+/htdocs/wp-content/w3tc-config
 db.php
 advanced-cache.php
 w3-total-cache-config.php
