@@ -36,7 +36,6 @@ deploy.php
 /htdocs/wp-content/upgrade
 /htdocs/wp-content/uploads
 /htdocs/wp-content/w3tc-config
-/htdocs/wp-includes/SimplePie
 db.php
 advanced-cache.php
 w3-total-cache-config.php
