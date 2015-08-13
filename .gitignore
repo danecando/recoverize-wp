@@ -42,3 +42,4 @@ w3-total-cache-config.php
 conf/nginx/nginx.conf
 /htdocs/.htaccess
 /htdocs/nginx.conf
+/htdocs/wp-includes/SimplePie/Cache/DB.php
