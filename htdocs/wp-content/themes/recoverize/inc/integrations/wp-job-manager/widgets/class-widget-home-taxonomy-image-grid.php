@@ -151,7 +151,7 @@ class Listify_Widget_Taxonomy_Image_Grid extends Listify_Widget {
 			?>
 
 			<section id="image-grid-term-<?php echo $term->slug; ?>" class="<?php echo $cols . $spans[$count]; ?> image-grid-item">
-				<div <?php echo $image ?>>
+				<div <?php echo $image; ?>>
 					<a href="<?php echo esc_url( get_term_link( $term, $this->taxonomy ) ); ?>" class="image-grid-clickbox"></a>
 					<a href="<?php echo esc_url( get_term_link( $term, $this->taxonomy ) ); ?>" class="cover-wrapper"><?php echo $term->name; ?></a>
 				</div>

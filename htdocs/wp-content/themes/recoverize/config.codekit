@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19033",
+"creatorBuild": "19051",
 "files": {
 	"\/404.php": {
 		"fileType": 8192,
@@ -731,7 +731,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/sass\/ionicons\/ionicons.scss",
 		"outputAbbreviatedPath": "\/css\/sass\/ionicons.css",
@@ -747,7 +747,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/sass\/mixins.scss",
 		"outputAbbreviatedPath": "\/css\/mixins.css",
@@ -811,7 +811,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/sass\/woocommerce\/account.scss",
 		"outputAbbreviatedPath": "\/css\/sass\/account.css",
@@ -827,7 +827,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/sass\/woocommerce\/bookings.scss",
 		"outputAbbreviatedPath": "\/css\/sass\/bookings.css",
@@ -843,7 +843,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/sass\/woocommerce\/cart.scss",
 		"outputAbbreviatedPath": "\/css\/sass\/cart.css",
@@ -859,7 +859,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/sass\/woocommerce\/checkout.scss",
 		"outputAbbreviatedPath": "\/css\/sass\/checkout.css",
@@ -875,7 +875,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/sass\/woocommerce\/social_login.scss",
 		"outputAbbreviatedPath": "\/css\/sass\/social_login.css",
@@ -891,7 +891,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/sass\/woocommerce\/woocommerce.scss",
 		"outputAbbreviatedPath": "\/css\/sass\/woocommerce.css",
@@ -923,7 +923,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/sass\/wp-job-manager\/bookmarks.scss",
 		"outputAbbreviatedPath": "\/css\/sass\/bookmarks.css",
@@ -939,7 +939,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/sass\/wp-job-manager\/claims.scss",
 		"outputAbbreviatedPath": "\/css\/sass\/claims.css",
@@ -955,7 +955,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/sass\/wp-job-manager\/job_edit.scss",
 		"outputAbbreviatedPath": "\/css\/sass\/job_edit.css",
@@ -971,7 +971,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/sass\/wp-job-manager\/products.scss",
 		"outputAbbreviatedPath": "\/css\/sass\/products.css",
@@ -987,7 +987,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/sass\/wp-job-manager\/reviews.scss",
 		"outputAbbreviatedPath": "\/css\/sass\/reviews.css",
@@ -1003,7 +1003,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/sass\/wp-job-manager\/wc_paid_listings.scss",
 		"outputAbbreviatedPath": "\/css\/sass\/wc_paid_listings.css",
@@ -1019,7 +1019,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/sass\/wp-job-manager\/wp_job_manager.scss",
 		"outputAbbreviatedPath": "\/css\/sass\/wp_job_manager.css",
@@ -1138,6 +1138,17 @@
 		"initialSize": 50394,
 		"inputAbbreviatedPath": "\/images\/listify-banner-welcome.jpg",
 		"outputAbbreviatedPath": "\/images\/listify-banner-welcome.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/phone_operator.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13598,
+		"inputAbbreviatedPath": "\/images\/phone_operator.jpg",
+		"outputAbbreviatedPath": "\/images\/phone_operator.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1590,7 +1601,7 @@
 		},
 	"\/inc\/integrations\/jetpack\/js\/jetpack.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/inc\/integrations\/jetpack\/js\/jetpack.js",
 		"outputAbbreviatedPath": "\/inc\/integrations\/jetpack\/js\/jetpack.min.js",
@@ -1973,7 +1984,7 @@
 		},
 	"\/inc\/integrations\/wp-job-manager\/js\/listing\/app.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/inc\/integrations\/wp-job-manager\/js\/listing\/app.js",
 		"outputAbbreviatedPath": "\/inc\/integrations\/wp-job-manager\/js\/listing\/app.min.js",
@@ -2008,7 +2019,7 @@
 		},
 	"\/inc\/integrations\/wp-job-manager\/js\/map\/app.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/inc\/integrations\/wp-job-manager\/js\/map\/app.js",
 		"outputAbbreviatedPath": "\/inc\/integrations\/wp-job-manager\/js\/map\/app.min.js",
@@ -2460,7 +2471,7 @@
 		},
 	"\/js\/admin\/widget-features.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/admin\/widget-features.js",
 		"outputAbbreviatedPath": "\/js\/admin\/widget-features.min.js",
@@ -2718,6 +2729,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/page.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/partials\/content-help-pop.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/content-help-pop.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -3105,7 +3125,7 @@
 	"coffeeOutputStyle": 0,
 	"coffeeSyntaxCheckerStyle": 1,
 	"externalServerAddress": "http:\/\/localhost:8888",
-	"externalServerPreviewPathAddition": "\/recoverize-wp",
+	"externalServerPreviewPathAddition": "\/recoverize-wp\/",
 	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
 	"hamlAutoOutputPathEnabled": 1,
 	"hamlAutoOutputPathFilenamePattern": "*.html",
@@ -3441,10 +3461,6 @@
 			}
 		},
 	"jsLintFlags2": {
-		"ass": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"bitwise": {
 			"active": 0,
 			"flagValue": -1
@@ -3453,15 +3469,7 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"closure": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"continue": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"debug": {
+		"couch": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -3469,75 +3477,27 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"eqeq": {
+		"es6": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"evil": {
+		"eval": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"forin": {
+		"for": {
 			"active": 0,
 			"flagValue": -1
-			},
-		"indent": {
-			"active": 0,
-			"flagValue": 4
 			},
 		"maxlen": {
 			"active": 0,
 			"flagValue": 150
 			},
-		"newcap": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"node": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"nomen": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"plusplus": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"properties": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"regexp": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"rhino": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"sloppy": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"stupid": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"sub": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"todo": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"unparam": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"vars": {
+		"this": {
 			"active": 0,
 			"flagValue": -1
 			},

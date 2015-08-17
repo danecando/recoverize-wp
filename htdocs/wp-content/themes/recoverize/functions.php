@@ -379,7 +379,11 @@ function listify_cover( $class, $args = array() ) {
 		}
 	}
 
-	$image = apply_filters( 'listify_cover_image', $image, $args );
+	if (isset($args['term'])) {
+		$image[0] = z_taxonomy_image_url($args['term']->term_id);
+	} else {
+		$image = apply_filters( 'listify_cover_image', $image, $args );
+	}
 
 	if ( ! $image ) {
 		$class .= ' no-image';

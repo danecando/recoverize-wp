@@ -26,12 +26,17 @@ deploy.php
 /htdocs/wp-content/plugins/woocommerce-subscriptions
 /htdocs/wp-content/plugins/wordpress-importer
 /htdocs/wp-content/plugins/wordpress-seo
+/htdocs/wp-content/plugins/advanced-ads/
+/htdocs/wp-content/plugins/optimizely/
+/htdocs/wp-content/plugins/segmentio/
+/htdocs/wp-content/plugins/sumome/
 /htdocs/wp-content/plugins/wp-job-manager
 /htdocs/wp-content/plugins/wp-job-manager-bookmarks
 /htdocs/wp-content/plugins/wp-job-manager-contact-listing
 /htdocs/wp-content/plugins/wp-job-manager-locations
 /htdocs/wp-content/plugins/wp-job-manager-reviews
 /htdocs/wp-content/plugins/wp-job-manager-tags
+htdocs/wp-content/plugins/categories-images/
 /htdocs/wp-content/cache
 /htdocs/wp-content/upgrade
 /htdocs/wp-content/uploads
@@ -43,3 +48,5 @@ conf/nginx/nginx.conf
 /htdocs/.htaccess
 /htdocs/nginx.conf
 /htdocs/wp-includes/SimplePie/Cache/DB.php
+config.codekit
+.sass-cache
