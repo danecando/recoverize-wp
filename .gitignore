@@ -36,6 +36,10 @@ deploy.php
 /htdocs/wp-content/upgrade
 /htdocs/wp-content/uploads
 /htdocs/wp-content/w3tc-config
+/htdocs/wp-content/plugins/advanced-ads/
+/htdocs/wp-content/plugins/optimizely/
+/htdocs/wp-content/plugins/segmentio/
+/htdocs/wp-content/plugins/sumome/
 db.php
 advanced-cache.php
 w3-total-cache-config.php
