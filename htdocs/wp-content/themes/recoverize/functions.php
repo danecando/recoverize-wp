@@ -5,8 +5,6 @@
  * @package Listify
  */
 
-// poop poop poop
-
 
 /**
  * Set the content width based on the theme's design and stylesheet.
