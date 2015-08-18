@@ -1,9 +1,9 @@
 {
-  "name": "listify",
-  "title": "listify",
-  "version": "1.0.0",
-  "description": "Your beautiful handcrafted digital marketplace.",
-  "homepage": "https://github.com/Astoundify/listify",
+  "name": "recoverize-wp",
+  "title": "recoverize-wp",
+  "version": "1.0.1",
+  "description": "A theme for www.recoverize.com",
+  "homepage": "https://github.com/danecando/recoverize-wp",
   "main": "Gruntfile.js",
   "dependencies": {},
   "devDependencies": {
@@ -25,12 +25,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Astoundify/listify.git"
+    "url": "git://github.com/danecando/recoverize.git"
   },
   "author": "Spencer Finnell",
   "license": "GPL",
   "bugs": {
-    "url": "https://github.com/Astoundify/listify/issues"
+    "url": "https://github.com/danecando/recoverize/issues"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -7,6 +7,7 @@
 
 // poop poop poop
 
+
 /**
  * Set the content width based on the theme's design and stylesheet.
  */
@@ -216,6 +217,10 @@ add_filter( 'mce_css', 'listify_mce_css' );
  * @return void
  */
 function listify_scripts() {
+
+	$package = file_get_contents(__DIR__ . '/package.json');
+	$package_json = json_decode($package, true);
+
 	/*
 	 * Styles
 	 */
@@ -226,7 +231,7 @@ function listify_scripts() {
 
 	/* Custom CSS */
 	wp_enqueue_style( 'listify', get_template_directory_uri() . '/css/style.min.css' );
-	wp_enqueue_style( 'recoverize', get_template_directory_uri() . '/css/recoverize.css');
+	wp_enqueue_style( 'recoverize', get_template_directory_uri() . '/css/recoverize.css', false, $package_json['version']);
 	wp_style_add_data( 'listify', 'rtl', 'replace' );
 
 	/* Output customizer CSS after theme CSS */
