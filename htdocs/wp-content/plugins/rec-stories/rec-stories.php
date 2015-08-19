@@ -1,20 +1,20 @@
 <?php
 /*
-Plugin Name: Recoverize Speaker Tapes
-Plugin URI: https://github.com/recoverize/rec-speaker-tapes
-Description: A plugin for speaker tape content management
+Plugin Name: Recovery Stories
+Plugin URI: https://github.com/recoverize/rec-stories
+Description: A plugin for speaker tape and recovery story content management
 Version: 1.0.0
 Author: Dane Grant <danecando@gmail.com>
 Author URI: http://danecando.com
 License: GPL2
 */
 
-if ( ! class_exists( 'Rec_Speaker_Tapes' ) ):
+if ( ! class_exists( 'Rec_Stories' ) ):
 
-	class Rec_Speaker_Tapes {
+	class Rec_Stories {
 
 		/**
-		 * Instance of Rec_Speaker_Tapes
+		 * Instance of Rec_Stories
 		 *
 		 * @since 1.0.0
 		 * @access private
@@ -94,7 +94,7 @@ if ( ! class_exists( 'Rec_Speaker_Tapes' ) ):
 	}
 
 	function rec_speaker_tapes() {
-		return Rec_Speaker_Tapes::instance();
+		return Rec_Stories::instance();
 	}
 
 endif;
