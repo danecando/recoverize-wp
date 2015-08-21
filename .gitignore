@@ -7,7 +7,7 @@ deploy.php
 /htdocs/wp-content/plugins/acf-gallery
 /htdocs/wp-content/plugins/acf-repeater
 /htdocs/wp-content/plugins/advanced-custom-fields
-/htdocs/wp-content/plugins/askimet
+/htdocs/wp-content/plugins/akismet
 /htdocs/wp-content/plugins/amazon-s3-and-cloudfront
 /htdocs/wp-content/plugins/amazon-web-services
 /htdocs/wp-content/plugins/gravityforms
@@ -49,4 +49,5 @@ conf/nginx/nginx.conf
 /htdocs/nginx.conf
 /htdocs/wp-includes/SimplePie/Cache/DB.php
 config.codekit
+.codekit-cache
 .sass-cache

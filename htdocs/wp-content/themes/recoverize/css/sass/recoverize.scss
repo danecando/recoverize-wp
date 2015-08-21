@@ -1,5 +1,7 @@
 @import "bourbon";
 
+$secondary-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
 .search-overlay .container {
   top: 12px;
 }
@@ -215,4 +217,29 @@
     z-index: 99;
     padding: 10px;
   }
+}
+
+/**
+ * Primary Navigation
+ */
+
+.nav-menu.primary ul.nav-menu .sub-menu {
+  width: 250px;
+  text-align: center;
+}
+
+
+/**
+ * SumoMe Style Overrides
+ */
+
+.sumome-popup-powered-variant {
+  display: none;
+}
+
+.sumome-popup .sumome-popup-content .sumome-popup-form div.sumome-popup-text {
+  font-family: $secondary-font;
+  font-weight: 100;
+  text-align: center;
+  font-size: em(16);
 }
