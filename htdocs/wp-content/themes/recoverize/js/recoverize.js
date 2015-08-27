@@ -15,4 +15,8 @@ jQuery(function($) {
     $('#help-pop').toggleClass('open');
   });
 
+  if ($('.home .update_results').is(':disabled')) {
+    $('.home .update_results').prop('disabled', false).text('Search Listings');
+  }
+
 });
