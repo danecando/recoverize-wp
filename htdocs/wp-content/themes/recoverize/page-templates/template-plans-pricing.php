@@ -27,8 +27,8 @@ get_header(); ?>
 							$defaults = array(
 								'before_widget' => '<aside class="listify_widget_wcpl">',
 								'after_widget'  => '</aside>',
-								'before_title'  => '<div class="home-widget-section-title"><h1 class="home-widget-title">',
-								'after_title'   => '%s</h1></div>',
+								'before_title'  => '<div class="home-widget-section-title"><h3 class="home-widget-title">',
+								'after_title'   => '%s</h3></div>',
 								'widget_id'     => ''
 							);
 

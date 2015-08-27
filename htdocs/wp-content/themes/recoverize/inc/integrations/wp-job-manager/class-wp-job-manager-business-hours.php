@@ -12,14 +12,21 @@ class Listify_WP_Job_Manager_Business_Hours extends Listify_Integration {
 	public function setup_actions() {
 		add_action( 'admin_enqueue_scripts', array( $this, 'admin_enqueue_scripts' ) );
 
-		add_filter( 'submit_job_form_fields', array( $this, 'submit_job_form_fields' ) );
+		// save [front, back]
 		add_action( 'job_manager_update_job_data', array( $this, 'job_manager_update_job_data' ), 10, 2 );
-
-		add_filter( 'job_manager_job_listing_data_fields', array( $this, 'job_manager_job_listing_data_fields' ) );
-		add_action( 'job_manager_input_business_hours', array( $this, 'job_manager_input_business_hours' ), 10, 2 );
 		add_action( 'job_manager_save_job_listing', array( $this, 'job_manager_update_job_data' ), 10, 2 );
 
+		// add to frontend
+		add_filter( 'submit_job_form_fields', array( $this, 'submit_job_form_fields' ) );
+	
+		// custom input
+		add_action( 'job_manager_input_business_hours', array( $this, 'job_manager_input_business_hours' ), 10, 2 );
+		
+		// get current value
 		add_filter( 'submit_job_form_fields_get_job_data', array( $this, 'get_job_data' ), 10, 2 );
+
+		// output in admin
+		add_action( 'listify_writepanels_business_hours', array( $this, 'output_admin' ) );
 	}
 
 	public function admin_enqueue_scripts() {
@@ -54,20 +61,9 @@ class Listify_WP_Job_Manager_Business_Hours extends Listify_Integration {
 		update_post_meta( $job_id, '_job_hours', stripslashes_deep( $_POST[ 'job_hours' ] ) );
 	}
 
-	public function job_manager_job_listing_data_fields( $fields ) {
-		$fields[ '_job_hours' ] = array(
-			'label' => __( 'Hours of Operation', 'listify' ),
-			'type' => 'business_hours',
-			'placeholder' => '',
-			'priority' => 99
-		);
-
-		return $fields;
-	}
-
 	public function get_job_data( $fields, $job ) {
 		$hours = get_post_meta( $job->ID, '_job_hours', true );
-		
+
 		if ( ! $hours ) {
 			return $fields;
 		}
@@ -78,12 +74,16 @@ class Listify_WP_Job_Manager_Business_Hours extends Listify_Integration {
 	}
 
 	public function job_manager_input_business_hours( $key, $field ) {
-		global $wp_locale, $thepostid;
+		global $wp_locale, $post, $thepostid;
+
+		$thepostid = $post->ID;
 	?>
 
 	<div class="form-field" style="position: relative;">
 
+		<?php if ( ! is_admin() ) : ?>
 		<label for="<?php echo esc_attr( $key ); ?>"><?php echo esc_html( $field['label'] ) ; ?>:</label>
+		<?php endif; ?>
 
 		<?php
 			global $field;
@@ -110,5 +110,14 @@ class Listify_WP_Job_Manager_Business_Hours extends Listify_Integration {
 	</div>
 
 	<?php
+	}
+
+	public function output_admin() {
+		do_action( 'job_manager_input_business_hours', '_job_hours', array(
+			'label' => __( 'Hours of Operation', 'listify' ),
+			'type' => 'business_hours',
+			'placeholder' => '',
+			'priority' => 99
+		) );
 	}
 }

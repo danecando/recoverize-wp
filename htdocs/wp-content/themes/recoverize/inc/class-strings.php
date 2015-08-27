@@ -132,8 +132,8 @@ class Listify_Strings {
 			'wp-job-manager' => array(
 				'Job' => $this->label( 'singular' ),
 				'Jobs' => $this->label( 'plural' ),
-				'job' => $this->label( 'singular', true ),
-				'jobs' => $this->label( 'plural', true ),
+				'job' => sprintf( _x( '%s', 'the singular "listing" label used in permalinks". only transalte this if you are using Polylang and need to force the slugs to remain in a single language.' ), $this->label( 'singular', true ) ),
+				'jobs' => sprintf( _x( '%s', 'the plural "listing" label used in permalinks". only transalte this if you are using Polylang and need to force the slugs to remain in a single language.' ), $this->label( 'plural', true ) ),
 
 				'Job Listings' => $this->label( 'plural' ),
 
@@ -355,7 +355,7 @@ class Listify_Strings {
 				'This position is not filled' => __( 'This position is not filled', 'listify' ),
 				'%s has been marked as not filled' => __( '%s has been marked as not filled', 'listify' ),
 				'%s has been deleted' => __( '%s has been deleted', 'listify' ),
-				'Title' => __( 'Title', 'listify' ),
+				'Job Title' => __( 'Title', 'listify' ),
 				'Date Posted' => __( 'Date Posted', 'listify' ),
 				'Date Expires' => __( 'Date Expires', 'listify' ),
 				'Load more listings' => sprintf( __( 'Load More %s', 'listify' ), $this->label( 'plural' ) ),
@@ -497,14 +497,14 @@ class Listify_Strings {
 				'Listing Details &rarr;' => __( 'Listing Details &rarr;', 'listify' ),
 				'%s job posted out of %d' => array(
 					__( '%s listing posted out of %d', 'listify' ),
-					__( '%s listings posted out of %s', 'listify' )
+					__( '%s listings posted out of %d', 'listify' )
 				),
 				'%s job posted' =>  array(
 					__( '%s listing posted', 'listify' ),
 					__( '%s listings posted', 'listify' )
 				),
-				'%s for %d job' => array(
-					__( '%s for %d listing', 'listify' ),
+				'%s for %s job' => array(
+					__( '%s for %s listing', 'listify' ),
 					__( '%s for %s listings', 'listify' )
 				),
 				'Job Package' => array(

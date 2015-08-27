@@ -14,7 +14,7 @@ $days = listify_get_days_of_week();
 
 <table>
 	<tr>
-		<th width="50%">&nbsp;</th>
+		<th width="40%">&nbsp;</th>
 		<th align="left"><?php _e( 'Open', 'listify' ); ?></th>
 		<th align="left"><?php _e( 'Close', 'listify' ); ?></th>
 	</tr>

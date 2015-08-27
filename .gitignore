@@ -51,3 +51,4 @@ conf/nginx/nginx.conf
 config.codekit
 .codekit-cache
 .sass-cache
+.DS_STORE

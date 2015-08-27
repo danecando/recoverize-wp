@@ -4,23 +4,26 @@
 # Antonio Henrique S Vanucci Braz <antoniovbraz@gmail.com>, 2015
 # Bernardo Pina <bernardopina@gmail.com>, 2015
 # Fabricio von Seehausen <fabvon@gmail.com>, 2014
+# Jose Junior <contato@simplesmkt.com.br>, 2015
 # Kadu Szili <kadu.szili@gmail.com>, 2015
 # Matheus de Almeida Martins <matheus@matheuswd.com>, 2015
 # Murilo Ramos Pires <murilorp@outlook.com>, 2014
 # Oliver Pecha <oliverpecha@gmail.com>, 2015
 # Rafael Augusto Carvalho <rafaelcarvalho831@gmail.com>, 2015
+# Richard Fuldauer <richard@youfit.com.br>, 2015
 # Silnei L <webmaster@mochilabrasil.com.br>, 2015
 # Spencer Finnell <spencerfinnell@gmail.com>, 2015
+# Uilian gustavo de freitas lourenço <uiliaannn@gmail.com>, 2015
 # W3B Soluções Inteligentes <cleber@galdino.ws>, 2015
-# William Ribeiro Araujo <waraujo123@gmail.com>, 2014
+# William Ribeiro Araujo <waraujo123@gmail.com>, 2014-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Listify\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/theme/style\n"
-"POT-Creation-Date: 2015-05-08 15:33:36+00:00\n"
-"PO-Revision-Date: 2015-05-14 16:39+0000\n"
-"Last-Translator: Kadu Szili <kadu.szili@gmail.com>\n"
-"Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/listify/language/pt_BR/)\n"
+"POT-Creation-Date: 2015-08-12 14:57:14+00:00\n"
+"PO-Revision-Date: 2015-08-12 14:57+0000\n"
+"Last-Translator: Spencer Finnell <spencerfinnell@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/astoundify/listify/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -118,7 +121,7 @@ msgid "Recent Blog Posts"
 msgstr "Posts recentes"
 
 #: author.php:171 inc/customizer/controls/class-controls-labels.php:30
-#: inc/integrations/woocommerce/class-woocommerce.php:130
+#: inc/integrations/woocommerce/class-woocommerce.php:128
 msgid "Social Profiles"
 msgstr "Perfis Sociais"
 
@@ -209,16 +212,16 @@ msgstr "Imagem não encontrada."
 msgid "Why not add your own?"
 msgstr "Por que não adicionar seu próprio país?"
 
-#: content-single-job_listing.php:58
+#: content-single-job_listing.php:57
 msgid "Listing Location"
 msgstr "Localização da Listagem"
 
-#: content-single-job_listing.php:71 inc/class-page-settings.php:56
+#: content-single-job_listing.php:70 inc/class-page-settings.php:56
 #: inc/class-strings.php:381
 msgid "Video"
 msgstr "Video"
 
-#: content-single-job_listing.php:81
+#: content-single-job_listing.php:80
 msgid "Listing Description"
 msgstr "Descrição da Listagem"
 
@@ -266,7 +269,7 @@ msgstr "Coluna 2 do Rodapé"
 msgid "Footer Column 3"
 msgstr "Coluna 3 do Rodapé"
 
-#: functions.php:256
+#: functions.php:259
 #: inc/integrations/wp-job-manager/class-wp-job-manager-business-hours.php:103
 #: inc/integrations/wp-job-manager/class-wp-job-manager-business-hours.php:104
 #: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-business-hours.php:98
@@ -305,7 +308,7 @@ msgid "Featured Image"
 msgstr "Imagem em Destaque"
 
 #: inc/class-page-settings.php:61
-#: inc/integrations/wp-job-manager/map/class-wp-job-manager-map-template.php:304
+#: inc/integrations/wp-job-manager/map/class-wp-job-manager-map-template.php:305
 msgid "Map"
 msgstr "Mapa"
 
@@ -313,7 +316,7 @@ msgstr "Mapa"
 msgid "Install Required &amp; Recommended Plugins"
 msgstr "Instalar Plugins Exigidos &amp; Recomendados"
 
-#: inc/class-setup.php:40 inc/class-tgm-plugin-activation.php:162
+#: inc/class-setup.php:40 inc/class-tgm-plugin-activation.php:302
 msgid "Install Plugins"
 msgstr "Instalar Plugins"
 
@@ -335,7 +338,7 @@ msgid ""
 "The Listify theme package includes multiple demo content .XML files. This is what you will\n"
 "\t\t\t\t\tupload to the WordPress importer. Depending on the plugins you have activated or the intended use of your\n"
 "\t\t\t\t\twebsite you may not need to upload all .XML files."
-msgstr "O Pacote do Tema Listfy inclui múltipos conteúdos para demonstração, que são os arquivos .XML. Estes são o que você imprtará através do WordPress importer. Dependendo dos plugins que estão ativos ou que você pretende usar no seu website, não é necessário importar todos os arquivos .XML."
+msgstr "O Pacote do Tema Listfy inclui múltipos conteúdos para demonstração, que são os arquivos .XML. Estes são o que você importará através do WordPress importer. Dependendo dos plugins que estão ativos ou que você pretende usar no seu website, não é necessário importar todos os arquivos .XML."
 
 #: inc/class-setup.php:59
 msgid "Begin Importing Content"
@@ -381,7 +384,7 @@ msgid ""
 "In order to display custom widgets on your homepage you must first assign your static\n"
 "\t\t\t\t\tpage in the WordPress settings. You can also set which page will display your blog posts. If you have\n"
 "\t\t\t\t\timported the theme demo content you&#39;ll want to set the page called \"Search Your City\" as your homepage."
-msgstr "Para exibir widgets personalizados em sua página inicial, você deve primeiro atribuir sua página padrão nas configurações do WordPress. Você também pode definir qual página irá exibir seus posts. Se você importou o conteúdo de demonstração, você deve colocar a página chamada \"Seach Your City\" como sua página principal."
+msgstr "Para exibir widgets personalizados em sua página inicial, você deve primeiro atribuir sua página estatica nas configurações do WordPress. Você também pode definir qual página irá exibir seus posts. Se você importou o conteúdo de demonstração, você deve colocar a página chamada \"Seach Your City\" como sua página principal."
 
 #: inc/class-setup.php:105
 msgid "Reading Settings"
@@ -668,7 +671,7 @@ msgstr "M j, Y @ G:i"
 msgid "%s draft updated. Preview"
 msgstr "%s projeto atualizado. Visualizar"
 
-#: inc/class-strings.php:263 inc/class-tgm-plugin-activation.php:1376
+#: inc/class-strings.php:263 inc/class-tgm-plugin-activation.php:2391
 msgid "Type"
 msgstr "Tipo"
 
@@ -692,7 +695,7 @@ msgstr "Destacado?"
 msgid "Filled?"
 msgstr "Cheio?"
 
-#: inc/class-strings.php:269 inc/class-tgm-plugin-activation.php:1377
+#: inc/class-strings.php:269 inc/class-tgm-plugin-activation.php:2396
 msgid "Status"
 msgstr "Status"
 
@@ -864,7 +867,7 @@ msgstr "Pular essa etapa"
 msgid "All Done!"
 msgstr "Tudo feito!"
 
-#: inc/class-strings.php:312
+#: inc/class-strings.php:312 job-filters-flat.php:32 job-filters-flat.php:33
 msgid "Location"
 msgstr "Localização"
 
@@ -909,7 +912,7 @@ msgid "Use file"
 msgstr "Use arquivo"
 
 #: inc/class-strings.php:323
-#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:360
+#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:362
 msgid "Upload"
 msgstr "Envio"
 
@@ -1218,7 +1221,7 @@ msgstr "Seu e-mail"
 msgid "(optional)"
 msgstr "(Opcional)"
 
-#: inc/class-strings.php:404 inc/template-tags.php:254
+#: inc/class-strings.php:404 inc/template-tags.php:265
 msgid "%s ago"
 msgstr "%s atrás"
 
@@ -1284,15 +1287,15 @@ msgstr "Marca preenchida"
 msgid "Relist"
 msgstr "Relistar"
 
-#: inc/class-strings.php:425
+#: inc/class-strings.php:425 job-filters-flat.php:27 job-filters-flat.php:28
 msgid "Keywords"
 msgstr "Palavras-chave"
 
-#: inc/class-strings.php:426
+#: inc/class-strings.php:426 job-filters-flat.php:37
 msgid "Category"
 msgstr "Categoria"
 
-#: inc/class-strings.php:427
+#: inc/class-strings.php:427 job-filters-flat.php:38
 msgid "Any category"
 msgstr "Qualquer categoria"
 
@@ -1316,7 +1319,7 @@ msgstr "Aguardando aprovação."
 msgid "Pending payment"
 msgstr "Aguardando pagamento"
 
-#: inc/class-strings.php:434
+#: inc/class-strings.php:434 inc/class-tgm-plugin-activation.php:2168
 msgid "Active"
 msgstr "Ativo"
 
@@ -1405,11 +1408,11 @@ msgstr "etiquetados"
 
 #: inc/class-strings.php:466
 msgid "Listings will be shown if within ALL chosen tags"
-msgstr ""
+msgstr "As Listagens serão listadas dentro das Tags escolhidas"
 
 #: inc/class-strings.php:467
 msgid "Listings will be shown if within ANY chosen tags"
-msgstr ""
+msgstr "As Listagens serão listadas dentro de qualquer Tags escolhida"
 
 #: inc/class-strings.php:470
 msgid "Maximum %s Tags"
@@ -1456,8 +1459,8 @@ msgid "%s listing posted out of %d"
 msgstr "Lista %s postado fora de %d"
 
 #: inc/class-strings.php:500
-msgid "%s listings posted out of %s"
-msgstr "%s anúncios postados fora do %s"
+msgid "%s listings posted out of %d"
+msgstr "% de listados postados da %d "
 
 #: inc/class-strings.php:503
 msgid "%s listing posted"
@@ -1468,8 +1471,8 @@ msgid "%s listings posted"
 msgstr "%s oferta publicada"
 
 #: inc/class-strings.php:507
-msgid "%s for %d listing"
-msgstr "%s para %d listado"
+msgid "%s for %s listing"
+msgstr "% para %s listados"
 
 #: inc/class-strings.php:508
 msgid "%s for %s listings"
@@ -1521,21 +1524,21 @@ msgstr "#%d Atualização de Pagamento"
 
 #: inc/class-strings.php:555
 msgid "Results for your \"%s\" alert:"
-msgstr ""
+msgstr "Resultados para você \"%s\" Alerta:"
 
 #: inc/class-strings.php:556
 msgid "Results Matching \"%s"
-msgstr ""
+msgstr "Resultados Correspondentes \"%s"
 
 #: inc/class-strings.php:557
 msgid ""
 "No results were found matching your search. Login to your account to change "
 "your alert criteria"
-msgstr ""
+msgstr "Não foram encontrados resultados coincidentes com sua pesquisa. Entre na sua conta para alterar os seus critérios de alerta"
 
 #: inc/class-strings.php:558
 msgid "This alert will automatically stop sending after %s."
-msgstr ""
+msgstr "Esse alerta será interrompido automaticamente após o envio  %s."
 
 #: inc/class-strings.php:564
 msgid "Optionally add a keyword to match %s against"
@@ -1552,73 +1555,47 @@ msgstr "﻿%s Tipo:"
 #: inc/class-strings.php:583
 msgid ""
 "Your alerts are shown in the table below. The alerts will be sent to %s."
-msgstr ""
+msgstr "Os seus alertas são mostrados na tabela abaixo. Os alertas serão enviados para %s."
 
 #: inc/class-strings.php:584
 msgid "Alert me of %s like this"
-msgstr ""
+msgstr "Avisem-me de  %s como este"
 
-#: inc/class-tgm-plugin-activation.php:161
+#: inc/class-tgm-plugin-activation.php:301
 msgid "Install Required Plugins"
 msgstr "Instalar plug-ins necessários "
 
-#: inc/class-tgm-plugin-activation.php:163
+#: inc/class-tgm-plugin-activation.php:303
 msgid "Installing Plugin: %s"
 msgstr "Instalando Plug-ins: %s"
 
-#: inc/class-tgm-plugin-activation.php:164
-msgid "Something went wrong."
-msgstr "Algo deu errado"
+#: inc/class-tgm-plugin-activation.php:304
+msgid "Something went wrong with the plugin API."
+msgstr ""
 
-#: inc/class-tgm-plugin-activation.php:165
+#: inc/class-tgm-plugin-activation.php:305
 msgid "This theme requires the following plugin: %1$s."
 msgid_plural "This theme requires the following plugins: %1$s."
 msgstr[0] "Este tema requer o seguinte plug-in:%1$s."
 msgstr[1] "Este tema requer os seguintes plug-ins:%1$s."
 
-#: inc/class-tgm-plugin-activation.php:166
+#: inc/class-tgm-plugin-activation.php:310
 msgid "This theme recommends the following plugin: %1$s."
 msgid_plural "This theme recommends the following plugins: %1$s."
 msgstr[0] "Este tema requer os seguintes plug-ins:%1$s."
 msgstr[1] "Este tema requer os seguintes plug-ins:%1$s."
 
-#: inc/class-tgm-plugin-activation.php:167
+#: inc/class-tgm-plugin-activation.php:315
 msgid ""
-"Sorry, but you do not have the correct permissions to install the %s plugin."
-" Contact the administrator of this site for help on getting the plugin "
-"installed."
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugin."
 msgid_plural ""
-"Sorry, but you do not have the correct permissions to install the %s "
-"plugins. Contact the administrator of this site for help on getting the "
-"plugins installed."
-msgstr[0] "Desculpe, mas você não tem as permissões corretas para instalar o plugin% s. Contato com o administrador do site para obter ajuda sobre como tirar o plugin instalado."
-msgstr[1] "Desculpe, mas você não tem as permissões corretas para instalar plugins% s. Contato com o administrador do site para obter ajuda em obter os plugins instalados."
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
 
-#: inc/class-tgm-plugin-activation.php:168
-msgid "The following required plugin is currently inactive: %1$s."
-msgid_plural "The following required plugins are currently inactive: %1$s."
-msgstr[0] "O seguinte plugin necessário é atualmente inativo: %1$s."
-msgstr[1] "Os seguintes plugins necessários são atualmente inativo:  %1$s."
-
-#: inc/class-tgm-plugin-activation.php:169
-msgid "The following recommended plugin is currently inactive: %1$s."
-msgid_plural "The following recommended plugins are currently inactive: %1$s."
-msgstr[0] "O seguinte plug-in recomendado é atualmente inativo: %1$s."
-msgstr[1] "Os seguintes plugins recomendadas são atualmente inativo: %1$s."
-
-#: inc/class-tgm-plugin-activation.php:170
-msgid ""
-"Sorry, but you do not have the correct permissions to activate the %s "
-"plugin. Contact the administrator of this site for help on getting the "
-"plugin activated."
-msgid_plural ""
-"Sorry, but you do not have the correct permissions to activate the %s "
-"plugins. Contact the administrator of this site for help on getting the "
-"plugins activated."
-msgstr[0] "Desculpe, mas você não tem as permissões corretas para ativar o plugin %s. Contate o administrador para obter ajuda em obter o plugin ativado."
-msgstr[1] "Desculpe, mas você não tem as permissões corretas para ativar plugins %s. Contate o administrador para obter ajuda em obter os plugins ativados."
-
-#: inc/class-tgm-plugin-activation.php:171
+#: inc/class-tgm-plugin-activation.php:320
 msgid ""
 "The following plugin needs to be updated to its latest version to ensure "
 "maximum compatibility with this theme: %1$s."
@@ -1628,192 +1605,325 @@ msgid_plural ""
 msgstr[0] "O seguinte plugin precisa ser atualizado para a versão mais recente para garantir o máximo de compatibilidade com este tema: %1$s."
 msgstr[1] "Os seguintes plugins precisam ser atualizados para a sua versão mais recente para garantir a máxima compatibilidade com este tema: %1$s."
 
-#: inc/class-tgm-plugin-activation.php:172
-msgid ""
-"Sorry, but you do not have the correct permissions to update the %s plugin. "
-"Contact the administrator of this site for help on getting the plugin "
-"updated."
-msgid_plural ""
-"Sorry, but you do not have the correct permissions to update the %s plugins."
-" Contact the administrator of this site for help on getting the plugins "
-"updated."
-msgstr[0] "Desculpe, mas você não tem as permissões corretas para ativar plugins %s. Contate o administrador para obter ajuda em obter os plugins ativado"
-msgstr[1] "Desculpe, mas você não tem as permissões corretas para ativar plugins %s. Contate o administrador para obter ajuda em obter os plugins ativado"
+#: inc/class-tgm-plugin-activation.php:325
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
 
-#: inc/class-tgm-plugin-activation.php:173
+#: inc/class-tgm-plugin-activation.php:330
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:335
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "O seguinte plugin necessário é atualmente inativo: %1$s."
+msgstr[1] "Os seguintes plugins necessários são atualmente inativo:  %1$s."
+
+#: inc/class-tgm-plugin-activation.php:340
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "O seguinte plug-in recomendado é atualmente inativo: %1$s."
+msgstr[1] "Os seguintes plugins recomendadas são atualmente inativo: %1$s."
+
+#: inc/class-tgm-plugin-activation.php:345
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:350
 msgid "Begin installing plugin"
 msgid_plural "Begin installing plugins"
 msgstr[0] "Comece a instalação de plugins"
 msgstr[1] "Comece a instalação de plugins"
 
-#: inc/class-tgm-plugin-activation.php:174
+#: inc/class-tgm-plugin-activation.php:355
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:360
 msgid "Begin activating plugin"
 msgid_plural "Begin activating plugins"
 msgstr[0] "Comece ativar plugin"
 msgstr[1] "Comece ativar plugins"
 
-#: inc/class-tgm-plugin-activation.php:175
+#: inc/class-tgm-plugin-activation.php:365
 msgid "Return to Required Plugins Installer"
 msgstr "Obrigatório Retornar para Instalação de Plugins"
 
-#: inc/class-tgm-plugin-activation.php:176
+#: inc/class-tgm-plugin-activation.php:366
 msgid "Return to the dashboard"
 msgstr "Voltar ao painel"
 
-#: inc/class-tgm-plugin-activation.php:177
-#: inc/class-tgm-plugin-activation.php:1939
+#: inc/class-tgm-plugin-activation.php:367
+#: inc/class-tgm-plugin-activation.php:2957
 msgid "Plugin activated successfully."
 msgstr "Plug-in ativado com sucesso."
 
-#: inc/class-tgm-plugin-activation.php:178
-#: inc/class-tgm-plugin-activation.php:1630
+#: inc/class-tgm-plugin-activation.php:368
+#: inc/class-tgm-plugin-activation.php:2785
 msgid "The following plugin was activated successfully:"
 msgstr "O seguinte plug-in foi ativado com sucesso:"
 
-#: inc/class-tgm-plugin-activation.php:179
+#: inc/class-tgm-plugin-activation.php:369
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:370
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:371
 msgid "All plugins installed and activated successfully. %1$s"
 msgstr "Todos os plugins instalado e ativado com sucesso. %1$s"
 
-#: inc/class-tgm-plugin-activation.php:180
+#: inc/class-tgm-plugin-activation.php:372
 msgid "Dismiss this notice"
 msgstr "Ignorar este aviso"
 
-#: inc/class-tgm-plugin-activation.php:531
-#: inc/class-tgm-plugin-activation.php:2156
+#: inc/class-tgm-plugin-activation.php:373
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:488
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:489
+msgid "Update Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:603
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:796
+#: inc/class-tgm-plugin-activation.php:3362
 msgid "Return to the Dashboard"
 msgstr "Voltar ao Painel"
 
-#: inc/class-tgm-plugin-activation.php:1166
-msgid "Private Repository"
-msgstr "Repositório privado"
+#: inc/class-tgm-plugin-activation.php:903
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
 
-#: inc/class-tgm-plugin-activation.php:1169
-msgid "Pre-Packaged"
-msgstr "Pré-Embalados"
+#: inc/class-tgm-plugin-activation.php:903
+#: inc/class-tgm-plugin-activation.php:906
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
 
-#: inc/class-tgm-plugin-activation.php:1174
-msgid "WordPress Repository"
-msgstr "Repositório WordPress "
+#: inc/class-tgm-plugin-activation.php:906
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
 
-#: inc/class-tgm-plugin-activation.php:1177
+#: inc/class-tgm-plugin-activation.php:2120
 msgid "Required"
 msgstr "Exigido"
 
-#: inc/class-tgm-plugin-activation.php:1177
+#: inc/class-tgm-plugin-activation.php:2123
 msgid "Recommended"
 msgstr "Recomendado"
 
-#: inc/class-tgm-plugin-activation.php:1180
+#: inc/class-tgm-plugin-activation.php:2139
+msgid "WordPress Repository"
+msgstr "Repositório WordPress "
+
+#: inc/class-tgm-plugin-activation.php:2142
+msgid "External Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2145
+msgid "Pre-Packaged"
+msgstr "Pré-Embalados"
+
+#: inc/class-tgm-plugin-activation.php:2162
 msgid "Not Installed"
 msgstr "Não Instalado"
 
-#: inc/class-tgm-plugin-activation.php:1182
+#: inc/class-tgm-plugin-activation.php:2166
 msgid "Installed But Not Activated"
 msgstr "Instalado Mas Não Ativado"
 
-#: inc/class-tgm-plugin-activation.php:1287
-#: inc/class-tgm-plugin-activation.php:1395
-msgid "Install"
-msgstr "Instalar"
+#: inc/class-tgm-plugin-activation.php:2174
+msgid "Required Update not Available"
+msgstr ""
 
-#: inc/class-tgm-plugin-activation.php:1309
-#: inc/class-tgm-plugin-activation.php:1396
-msgid "Activate"
-msgstr "Ativar"
+#: inc/class-tgm-plugin-activation.php:2177
+msgid "Requires Update"
+msgstr ""
 
-#: inc/class-tgm-plugin-activation.php:1358
+#: inc/class-tgm-plugin-activation.php:2180
+msgid "Update recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2236
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:2239
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:2242
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:2332
+msgid "Installed version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2340
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2352
+msgid "Available version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2375
 msgid ""
-"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
-"Dashboard\">Return to the Dashboard</a>"
-msgstr "Não há plugins para instalar ou ativar. <a href=\"%1$s\" title=\"Return to the Dashboard\"> Voltar ao Painel</a>"
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
 
-#: inc/class-tgm-plugin-activation.php:1374
+#: inc/class-tgm-plugin-activation.php:2389
 msgid "Plugin"
 msgstr "Plugin"
 
-#: inc/class-tgm-plugin-activation.php:1375
+#: inc/class-tgm-plugin-activation.php:2390
 msgid "Source"
 msgstr "Origem"
 
-#: inc/class-tgm-plugin-activation.php:1922
-msgid "Install package not available."
-msgstr "Pacote de instalação não está disponível."
+#: inc/class-tgm-plugin-activation.php:2395
+msgid "Version"
+msgstr ""
 
-#: inc/class-tgm-plugin-activation.php:1923
-msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
-msgstr "Baixando pacote de instalação de <span class=\"code\">%s</span>&#8230;"
+#: inc/class-tgm-plugin-activation.php:2523
+msgid "Upgrade message from the plugin author:"
+msgstr ""
 
-#: inc/class-tgm-plugin-activation.php:1924
-msgid "Unpacking the package&#8230;"
-msgstr "Descompactar o pacote&#8230;"
+#: inc/class-tgm-plugin-activation.php:2556
+msgid "Install"
+msgstr "Instalar"
 
-#: inc/class-tgm-plugin-activation.php:1925
-msgid "Installing the plugin&#8230;"
-msgstr "Instalando o plugin&#8230;"
+#: inc/class-tgm-plugin-activation.php:2562
+msgid "Update"
+msgstr ""
 
-#: inc/class-tgm-plugin-activation.php:1926
-msgid "Plugin install failed."
-msgstr "Instalação de plugin falhou."
+#: inc/class-tgm-plugin-activation.php:2565
+msgid "Activate"
+msgstr "Ativar"
 
-#: inc/class-tgm-plugin-activation.php:1927
-msgid "Plugin installed successfully."
-msgstr "Instalação de plugin foi efetuada."
+#: inc/class-tgm-plugin-activation.php:2596
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
 
-#: inc/class-tgm-plugin-activation.php:1938
+#: inc/class-tgm-plugin-activation.php:2598
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2634
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2636
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2741
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2767
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2956
 msgid "Plugin activation failed."
 msgstr "Ativação de plugin falhou."
 
-#: inc/class-tgm-plugin-activation.php:2052
+#: inc/class-tgm-plugin-activation.php:3286
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3288
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr " Ocorreu um erro durante a instalação %1$s: <strong>%2$s</strong>."
+
+#: inc/class-tgm-plugin-activation.php:3289
+msgid "The installation of %1$s failed."
+msgstr "A instalação de %1$s falhou."
+
+#: inc/class-tgm-plugin-activation.php:3293
 msgid ""
 "The installation and activation process is starting. This process may take a"
 " while on some hosts, so please be patient."
 msgstr "O processo de instalação e ativação está começando. Este processo pode demorar um pouco em alguns, então por favor, seja paciente."
 
-#: inc/class-tgm-plugin-activation.php:2053
+#: inc/class-tgm-plugin-activation.php:3294
 msgid "%1$s installed and activated successfully."
 msgstr "%1$s instalado e ativado com sucesso."
 
-#: inc/class-tgm-plugin-activation.php:2053
-#: inc/class-tgm-plugin-activation.php:2062
+#: inc/class-tgm-plugin-activation.php:3294
+#: inc/class-tgm-plugin-activation.php:3300
 msgid "Show Details"
 msgstr "Mostrar Detalhes"
 
-#: inc/class-tgm-plugin-activation.php:2053
-#: inc/class-tgm-plugin-activation.php:2062
+#: inc/class-tgm-plugin-activation.php:3294
+#: inc/class-tgm-plugin-activation.php:3300
 msgid "Hide Details"
 msgstr "Ocultar Detalhes"
 
-#: inc/class-tgm-plugin-activation.php:2054
+#: inc/class-tgm-plugin-activation.php:3295
 msgid "All installations and activations have been completed."
 msgstr "Todas as instalações e ativações foram concluídos."
 
-#: inc/class-tgm-plugin-activation.php:2055
+#: inc/class-tgm-plugin-activation.php:3296
 msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
 msgstr "Instalar e ativar Plugin %1$s (%2$d/%3$d)"
 
-#: inc/class-tgm-plugin-activation.php:2059
+#: inc/class-tgm-plugin-activation.php:3299
 msgid ""
 "The installation process is starting. This process may take a while on some "
 "hosts, so please be patient."
 msgstr "O processo de instalação está a começar. Este processo pode demorar um pouco, então por favor, seja paciente."
 
-#: inc/class-tgm-plugin-activation.php:2060
-msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
-msgstr " Ocorreu um erro durante a instalação %1$s: <strong>%2$s</strong>."
-
-#: inc/class-tgm-plugin-activation.php:2061
-msgid "The installation of %1$s failed."
-msgstr "A instalação de %1$s falhou."
-
-#: inc/class-tgm-plugin-activation.php:2062
+#: inc/class-tgm-plugin-activation.php:3300
 msgid "%1$s installed successfully."
 msgstr "%1$s instalado com sucesso."
 
-#: inc/class-tgm-plugin-activation.php:2063
+#: inc/class-tgm-plugin-activation.php:3301
 msgid "All installations have been completed."
 msgstr "Todas as instalações foram concluídos."
 
-#: inc/class-tgm-plugin-activation.php:2064
+#: inc/class-tgm-plugin-activation.php:3302
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
 msgstr "Instalando o Plugin %1$s (%2$d/%3$d)"
 
@@ -1846,7 +1956,7 @@ msgid ""
 "Choose a color scheme and continue to\n"
 "\t\t\t\t\t\tcustomize based on your brand. Certain schemes use the\n"
 "\t\t\t\t\t\tcolors differently so be sure to experiment!"
-msgstr ""
+msgstr "Escolha o esquema de cores e continue para\ncustomize baseado em sua marca. Certos esquemas usam as\ncores diferentemente, assim experimente!"
 
 #: inc/customizer/class-customizer-panels.php:29
 msgid "Menus & Navigation"
@@ -1972,16 +2082,16 @@ msgstr "País Base"
 
 #: inc/customizer/controls/class-controls-labels.php:25
 msgid "This controls autocomplete priority, distance units, and more."
-msgstr ""
+msgstr "Esses controles auto-completam por prioridade, unidade de distancia, e mais"
 
 #: inc/customizer/controls/class-controls-labels.php:32
 msgid ""
 "If associated with a listing the fields will appear on the submission form"
-msgstr ""
+msgstr "Se associado a algum anuncio os campos vão aparecer no formulário de submissão"
 
 #: inc/customizer/controls/class-controls-labels.php:34
 msgid "Associate with listing"
-msgstr "Associar com anúncio"
+msgstr "Associar com Listagem"
 
 #: inc/customizer/controls/class-controls-labels.php:35
 msgid "Associate with user"
@@ -2000,7 +2110,7 @@ msgid ""
 "Categories will be used to create map markers, and types will\n"
 "\t\t\t\tbe hidden from all other areas. Categories must be enabled in Listings > Settings.\n"
 "\t\t\t\t<br /><br />Refresh this page in your browser after saving."
-msgstr ""
+msgstr "Categorias vão ser usadas para criar marcadores no mapa, e tipos vao\nser ocultados de todas outras areas. Categorias precisam ser habilitadas nas Listas> Configurações.\n <br /><br />Atualize sua pagina do navegador apos salvar"
 
 #: inc/customizer/controls/class-controls-listing-archive.php:17
 msgid "Display"
@@ -2023,7 +2133,7 @@ msgid "Side (fixed)"
 msgstr "Lateral (fixo)"
 
 #: inc/customizer/controls/class-controls-listing-archive.php:29
-#: inc/integrations/facetwp/class-facetwp.php:109
+#: inc/integrations/facetwp/class-facetwp.php:147
 msgid "Top"
 msgstr "Topo"
 
@@ -2036,7 +2146,7 @@ msgid "List"
 msgstr "Lista"
 
 #: inc/customizer/controls/class-controls-listing-archive.php:52
-#: inc/customizer/controls/class-controls-map-behavior.php:85
+#: inc/customizer/controls/class-controls-map-behavior.php:93
 #: inc/customizer/controls/class-controls-marker-appearance.php:49
 msgid "Default"
 msgstr "Padrão"
@@ -2047,11 +2157,11 @@ msgstr "API Key do Google Maps (opcional)"
 
 #: inc/customizer/controls/class-controls-map-behavior.php:20
 msgid "Info Bubble Trigger"
-msgstr ""
+msgstr "Gatilho de informações"
 
 #: inc/customizer/controls/class-controls-map-behavior.php:23
 msgid "Hover"
-msgstr ""
+msgstr "Suspenso"
 
 #: inc/customizer/controls/class-controls-map-behavior.php:24
 msgid "Click"
@@ -2078,18 +2188,22 @@ msgid "Default Zoom Level"
 msgstr "Nível de zoom predefinido"
 
 #: inc/customizer/controls/class-controls-map-behavior.php:50
-msgid "Max Zoom Level"
-msgstr "Max Nível de zoom"
+msgid "Max Zoom In Level"
+msgstr ""
 
-#: inc/customizer/controls/class-controls-map-behavior.php:63
+#: inc/customizer/controls/class-controls-map-behavior.php:58
+msgid "Max Zoom Out Level"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-map-behavior.php:71
 msgid "Search Radius Min (%s)"
 msgstr "Pesquisar o Menor Raio (%s)"
 
-#: inc/customizer/controls/class-controls-map-behavior.php:67
+#: inc/customizer/controls/class-controls-map-behavior.php:75
 msgid "Search Radius Max (%s)"
 msgstr "Pesquisar o Maior Raio (%s)"
 
-#: inc/customizer/controls/class-controls-map-behavior.php:71
+#: inc/customizer/controls/class-controls-map-behavior.php:79
 msgid "Search Radius Default (%s)"
 msgstr "Pesquisar o Raio Padrão (%s)"
 
@@ -2121,7 +2235,7 @@ msgstr "Listagem"
 msgid "Listings"
 msgstr "Listagens"
 
-#: inc/customizer/helper-functions.php:64
+#: inc/customizer/helper-functions.php:65
 msgid "Copyright %s &copy; %s. All Rights Reserved"
 msgstr "Copyright %s &copy; %s. Todos Direitos Reservados"
 
@@ -2134,24 +2248,24 @@ msgid "Distance"
 msgstr "Distância"
 
 #: inc/integrations/facetwp/class-facetwp-template.php:130
-#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:883
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:895
 #: sidebar-shop-archive.php:23
 msgid "Toggle Filters"
 msgstr "Filtros de alternância"
 
-#: inc/integrations/facetwp/class-facetwp.php:105
+#: inc/integrations/facetwp/class-facetwp.php:143
 msgid "FacetWP Filter Position"
 msgstr "FacetWP Filtro de Posição"
 
-#: inc/integrations/facetwp/class-facetwp.php:108
+#: inc/integrations/facetwp/class-facetwp.php:146
 msgid "Side"
 msgstr "Lado"
 
-#: inc/integrations/facetwp/class-facetwp.php:114
+#: inc/integrations/facetwp/class-facetwp.php:152
 msgid "FacetWP Filters"
 msgstr "FacetWP Filtros"
 
-#: inc/integrations/facetwp/class-facetwp.php:115
+#: inc/integrations/facetwp/class-facetwp.php:153
 msgid ""
 "A comma (,) separated list of FacetWP facet slugs. The order they appear "
 "here will be the order they appear on your website."
@@ -2163,23 +2277,23 @@ msgstr "Proximidade"
 
 #: inc/integrations/facetwp/includes/proximity.php:33
 msgid "Enter location"
-msgstr ""
+msgstr "Digite sua Localização"
 
 #: inc/integrations/facetwp/includes/proximity.php:47
 msgid "Apply"
-msgstr ""
-
-#: inc/integrations/facetwp/includes/proximity.php:204
-msgid "Unit of measurement"
-msgstr ""
+msgstr "Aplicar"
 
 #: inc/integrations/facetwp/includes/proximity.php:208
-msgid "Miles"
-msgstr ""
+msgid "Unit of measurement"
+msgstr "Unidade de medição"
 
-#: inc/integrations/facetwp/includes/proximity.php:209
+#: inc/integrations/facetwp/includes/proximity.php:212
+msgid "Miles"
+msgstr "Milhas"
+
+#: inc/integrations/facetwp/includes/proximity.php:213
 msgid "Kilometers"
-msgstr ""
+msgstr "Kilometros "
 
 #: inc/integrations/jetpack/class-jetpack-share.php:47
 msgid "Share"
@@ -2230,44 +2344,44 @@ msgid_plural "Items"
 msgstr[0] "Item"
 msgstr[1] "Itens"
 
-#: inc/integrations/woocommerce/class-woocommerce.php:52
+#: inc/integrations/woocommerce/class-woocommerce.php:53
 msgid "Product Sidebar"
 msgstr "Sidebar Produto"
 
-#: inc/integrations/woocommerce/class-woocommerce.php:61
+#: inc/integrations/woocommerce/class-woocommerce.php:62
 msgid "Shop Sidebar"
 msgstr "Sidebar Shop"
 
-#: inc/integrations/woocommerce/class-woocommerce.php:99
+#: inc/integrations/woocommerce/class-woocommerce.php:100
 msgid "Twitter URL"
 msgstr "Twitter URL"
 
-#: inc/integrations/woocommerce/class-woocommerce.php:100
+#: inc/integrations/woocommerce/class-woocommerce.php:101
 msgid "Facebook URL"
 msgstr "Facebook URL"
 
-#: inc/integrations/woocommerce/class-woocommerce.php:101
+#: inc/integrations/woocommerce/class-woocommerce.php:102
 msgid "Google+ URL"
 msgstr "Google+ URL"
 
-#: inc/integrations/woocommerce/class-woocommerce.php:102
+#: inc/integrations/woocommerce/class-woocommerce.php:103
 msgid "Pinterest URL"
 msgstr "Pinterest URL"
 
-#: inc/integrations/woocommerce/class-woocommerce.php:103
+#: inc/integrations/woocommerce/class-woocommerce.php:104
 msgid "LinkedIn URL"
 msgstr "LinkedIn URL"
 
-#: inc/integrations/woocommerce/class-woocommerce.php:104
+#: inc/integrations/woocommerce/class-woocommerce.php:105
 msgid "GitHub URL"
 msgstr "GitHub URL"
 
-#: inc/integrations/woocommerce/class-woocommerce.php:105
+#: inc/integrations/woocommerce/class-woocommerce.php:106
 msgid "Instagram URL"
-msgstr ""
+msgstr "URL Instagram "
 
-#: inc/integrations/woocommerce/class-woocommerce.php:121
-#: inc/integrations/woocommerce/class-woocommerce.php:124
+#: inc/integrations/woocommerce/class-woocommerce.php:117
+#: inc/integrations/woocommerce/class-woocommerce.php:120
 msgid "Biography"
 msgstr "Biography"
 
@@ -2337,8 +2451,9 @@ msgstr "Ver todas as listas arquivados em %s"
 msgid "Feed for all posts filed under %s"
 msgstr "Feed para todos os posts arquivados em %s"
 
-#: inc/integrations/wp-job-manager/class-wp-job-manager-business-hours.php:38
-#: inc/integrations/wp-job-manager/class-wp-job-manager-business-hours.php:59
+#: inc/integrations/wp-job-manager/class-wp-job-manager-business-hours.php:45
+#: inc/integrations/wp-job-manager/class-wp-job-manager-business-hours.php:117
+#: inc/integrations/wp-job-manager/class-wp-job-manager-writepanels.php:13
 #: sidebar-single-job_listing.php:57
 msgid "Hours of Operation"
 msgstr "Horário de Funcionamento"
@@ -2365,7 +2480,7 @@ msgid "Labels & Behavior"
 msgstr "Etiquetas e Comportamento"
 
 #: inc/integrations/wp-job-manager/class-wp-job-manager-customizer.php:19
-#: inc/integrations/wp-job-manager/map/class-wp-job-manager-map-template.php:304
+#: inc/integrations/wp-job-manager/map/class-wp-job-manager-map-template.php:305
 msgid "Results"
 msgstr "Resultados"
 
@@ -2375,7 +2490,7 @@ msgstr "Aparência Marcador"
 
 #: inc/integrations/wp-job-manager/class-wp-job-manager-customizer.php:25
 msgid "Map Appearance"
-msgstr ""
+msgstr "Aparência do Mapa"
 
 #: inc/integrations/wp-job-manager/class-wp-job-manager-customizer.php:28
 msgid "Map Settings"
@@ -2389,32 +2504,32 @@ msgstr "Adicionar Fotos"
 msgid "No images selected."
 msgstr "Não há imagens selecionadas."
 
-#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:241
+#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:243
 msgid "%s Gallery"
 msgstr "%s Galeria"
 
-#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:267
+#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:269
 msgid "Manage gallery images"
 msgstr "Gerenciar galeria de imagens"
 
-#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:268
+#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:270
 msgid "Clear gallery"
 msgstr "Limpar galeria"
 
-#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:357
+#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:359
 #: popup-content-single-job_listing-add-photo.php:18
 msgid "Add Images to Gallery"
 msgstr "Adicionar Imagens para a Galeria"
 
-#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:358
+#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:360
 msgid "Add to gallery"
 msgstr "Adicionar à galeria"
 
-#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:359
+#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:361
 msgid "Delete image"
 msgstr "Excluir imagem"
 
-#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:361
+#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:363
 msgid "Select this"
 msgstr "Selecione esta"
 
@@ -2438,51 +2553,51 @@ msgstr "Galeria de Imagens"
 msgid "Company %s"
 msgstr "Empresa %s"
 
-#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:299
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:308
 msgid "%s Archives - Sidebar"
 msgstr "%s Arquivo - Sidebar"
 
-#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:308
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:317
 msgid "Single %s - Main Content"
 msgstr "Único %s - Conteúdo Principal"
 
-#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:317
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:326
 msgid "Single %s - Sidebar"
 msgstr "Único %s - Sidebar"
 
-#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:344
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:353
 msgid "Browse %s"
 msgstr "Navegue %s"
 
-#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:361
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:370
 msgid "Select a %s"
 msgstr "Selecione um %s"
 
-#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:378
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:388
 msgid "View All"
 msgstr "ver Todos"
 
-#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:718
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:729
 msgid "Submit a Review"
 msgstr "Enviar um comentário"
 
-#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:779
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:790
 msgid "Filter by type:"
 msgstr "Filtrar por tipo:"
 
-#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:801
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:812
 msgid "Loading..."
 msgstr "Carregando..."
 
-#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:867
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:878
 msgid "<span class=\"results-found\">%s</span> Results Found"
-msgstr "<span class=\"results-found\">%s</span> resultado encontrado"
+msgstr "<span class=\"results-found\">%s</span> resultados encontrado"
 
-#: inc/integrations/wp-job-manager/map/class-wp-job-manager-map-template.php:325
+#: inc/integrations/wp-job-manager/map/class-wp-job-manager-map-template.php:326
 msgid "Radius: <span class=\"radi\">%s</span> %s"
 msgstr "Raio: <span class=\"radi\">%s</span> %s"
 
-#: inc/integrations/wp-job-manager/map/class-wp-job-manager-map-template.php:365
+#: inc/integrations/wp-job-manager/map/class-wp-job-manager-map-template.php:366
 msgid "within a %d %s radius"
 msgstr "Dentro de um raio de %d %s"
 
@@ -2490,7 +2605,7 @@ msgstr "Dentro de um raio de %d %s"
 msgid ""
 "Some color schemes may show/hide extra information. Please <a href=\"#\">read\n"
 "\t\t\t\tmore</a> about creating a custom scheme."
-msgstr ""
+msgstr "Alguns esquemas de cores podem aparecer/ocultar informações extra. Por favor leia <a href=\"#\">\nmais </a> ao criar um esquema customizado."
 
 #: inc/integrations/wp-job-manager/services/class-wp-job-manager-service-guestful.php:7
 msgid "Book with Guestful"
@@ -2570,7 +2685,7 @@ msgid "Facets:"
 msgstr "Facetas:"
 
 #: inc/integrations/wp-job-manager/widgets/class-widget-home-search-listings.php:100
-#: searchform-header.php:13 searchform.php:12
+#: searchform-header.php:12 searchform.php:12
 msgid "Search"
 msgstr "Pesquisar"
 
@@ -2697,11 +2812,11 @@ msgstr "Guia - Anúncio: Descrição"
 
 #: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-gallery-slider.php:13
 msgid "Display a gallery of images and thumbnails."
-msgstr ""
+msgstr "Mostrar galeria de imagens e miniaturas "
 
 #: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-gallery-slider.php:15
 msgid "Listify - Listing: Photo Gallery Slider"
-msgstr ""
+msgstr "Listify - Listagens: Controle deslizante da Galeria de fotos"
 
 #: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-gallery.php:13
 msgid "Display the listing photo gallery."
@@ -2785,23 +2900,23 @@ msgstr "Mostrar os pacotes de preços disponíveis para anúncios"
 msgid "Listify - Page: Pricing Table"
 msgstr "Guia - Página: Tabela de Preços"
 
-#: inc/integrations/wp-job-manager-wc-paid-listings/widgets/class-widget-pricing-table.php:97
+#: inc/integrations/wp-job-manager-wc-paid-listings/widgets/class-widget-pricing-table.php:96
 msgid "Get Started Now"
 msgstr "Comece agora"
 
-#: inc/template-tags.php:233
+#: inc/template-tags.php:244
 msgid "Listing Owner"
 msgstr "Dono da Empresa"
 
-#: inc/template-tags.php:241
+#: inc/template-tags.php:252
 msgid "<span class=\"ion-edit\"></span>"
 msgstr "<span class=\"ion-edit\"></span>"
 
-#: inc/template-tags.php:245
+#: inc/template-tags.php:256
 msgid "Your comment is awaiting moderation."
 msgstr "Seu comentário está aguardando moderação."
 
-#: inc/template-tags.php:287
+#: inc/template-tags.php:298
 msgid "Post navigation"
 msgstr "Navegação de Mensagem"
 
@@ -2942,6 +3057,12 @@ msgstr "Adicionar recurso"
 msgid "Media:"
 msgstr "Mídia:"
 
+#: job-filters-flat.php:49
+msgid ""
+"Your browser does not support JavaScript, or it is disabled. JavaScript must"
+" be enabled in order to view listings."
+msgstr ""
+
 #: page-templates/template-home.php:95
 msgid "Recent  Listings"
 msgstr "Listagem Recente"
@@ -2956,9 +3077,9 @@ msgstr "Enviar Imagens"
 
 #: popup-content-verified-listing.php:3
 msgid "This listing is being maintained by its rightful owner."
-msgstr ""
+msgstr "Este anúncio está sendo modificado por seu legítimo proprietário."
 
-#: product-searchform.php:11 searchform-header.php:12 searchform-header.php:14
+#: product-searchform.php:11 searchform-header.php:11 searchform-header.php:12
 #: searchform.php:11 searchform.php:13
 msgid "Search for:"
 msgstr "Procurar:"
@@ -3005,43 +3126,43 @@ msgstr "http://astoundify.com"
 
 #. Template Name of the plugin/theme
 msgid "Page: Listings"
-msgstr ""
+msgstr "Pagina: Listagens"
 
 #. Template Name of the plugin/theme
 msgid "Layout: Full Width (Boxless)"
-msgstr ""
+msgstr "Layout: largura total (Box)"
 
 #. Template Name of the plugin/theme
 msgid "Layout: Full Width"
-msgstr ""
+msgstr "Layout: largura total"
 
 #. Template Name of the plugin/theme
 msgid "Page: Home (Slider)"
-msgstr ""
+msgstr "Pagina: Inicial (Slider)"
 
 #. Template Name of the plugin/theme
 msgid "Page: Home (Visual Composer)"
-msgstr ""
+msgstr "Pagina: Inicio (Compositor Visual)"
 
 #. Template Name of the plugin/theme
 msgid "Page: Home"
-msgstr ""
+msgstr "Pagina: Inicio"
 
 #. Template Name of the plugin/theme
 msgid "Page: Plans and Pricing"
-msgstr ""
+msgstr "Pagina: Planos e Preços"
 
 #. Template Name of the plugin/theme
 msgid "Layout: Sidebar Left"
-msgstr ""
+msgstr "Layout: Barra Lateral Esquerda"
 
 #. Template Name of the plugin/theme
 msgid "Layout: Centered Single Column"
-msgstr ""
+msgstr "Layout: Coluna Unica Central"
 
 #. Template Name of the plugin/theme
 msgid "Page: Widgetized"
-msgstr ""
+msgstr "Gerenciar Widgets"
 
 #: archive.php:28
 msgctxt "monthly archives date format"
@@ -3062,22 +3183,81 @@ msgctxt "Montserrat font: on or off"
 msgid "on"
 msgstr "on"
 
+#: inc/class-strings.php:135
+msgctxt ""
+"the singular \"listing\" label used in permalinks\". only transalte this if "
+"you are using Polylang and need to force the slugs to remain in a single "
+"language."
+msgid "%s"
+msgstr "%s"
+
+#: inc/class-strings.php:136
+msgctxt ""
+"the plural \"listing\" label used in permalinks\". only transalte this if "
+"you are using Polylang and need to force the slugs to remain in a single "
+"language."
+msgid "%s"
+msgstr "%s"
+
+#: inc/class-tgm-plugin-activation.php:1084
+#: inc/class-tgm-plugin-activation.php:2781
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1849
+msgctxt "%s = version number"
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2188
+msgctxt "%1$s = install status, %2$s = update status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2233
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:2324
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2444
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2448
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2453
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr ""
+
 #: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:10
 msgctxt "gallery endpoint slug"
 msgid "gallery"
 msgstr "galeria"
 
-#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:795
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:806
 msgctxt "search filters submit"
 msgid "Update %s"
 msgstr "Atualizar %s"
 
-#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:798
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:809
 msgctxt "search filters submit"
 msgid "Search %s"
 msgstr "Pesquisar %s"
 
-#: inc/template-tags.php:178
+#: inc/template-tags.php:189
 msgctxt "noun"
 msgid "Menu"
 msgstr "Menu"

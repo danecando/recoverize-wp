@@ -8,8 +8,7 @@
 global $job_manager;
 ?>
 
-<div class="single_job_listing" itemscope itemtype="http://schema.org/LocalBusiness" <?php echo apply_filters(
-'listify_job_listing_data', '', false ); ?>>
+<div class="single_job_listing" itemscope itemtype="http://schema.org/LocalBusiness" <?php echo apply_filters( 'listify_job_listing_data', '', false ); ?>>
 
 	<div <?php echo apply_filters( 'listify_cover', 'listing-cover content-single-job_listing-hero', array( 'size' => 'full' ) ); ?>>
 
@@ -47,8 +46,8 @@ global $job_manager;
 						$defaults = array(
 							'before_widget' => '<aside class="widget widget-job_listing">',
 							'after_widget'  => '</aside>',
-							'before_title'  => '<h1 class="widget-title widget-title-job_listing %s">',
-							'after_title'   => '</h1>',
+							'before_title'  => '<h3 class="widget-title widget-title-job_listing %s">',
+							'after_title'   => '</h3>',
 							'widget_id'     => ''
 						);
 

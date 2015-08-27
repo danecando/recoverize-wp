@@ -30,10 +30,10 @@ get_header(); ?>
 								'description' => strip_shortcodes( get_the_content() )
 							),
 							array(
-								'before_widget' => '<div class="listify_widget_search_listings">',
+								'before_widget' => '<div class="listify_widget_search">',
 								'after_widget'  => '</div>',
-								'before_title'  => '<div class="home-widget-section-title"><h1 class="home-widget-title">',
-								'after_title'   => '</h1></div>',
+								'before_title'  => '<div class="home-widget-section-title"><h3 class="home-widget-title">',
+								'after_title'   => '</h3></div>',
 								'widget_id'     => 'search-12391'
 							)
 						);
@@ -65,6 +65,10 @@ get_header(); ?>
 
 			<?php endif; ?>
 
+		<?php endif; ?>
+
+		<?php if ( listify_has_integration( 'woocommerce' ) ) : ?>
+			<?php wc_print_notices(); ?>
 		<?php endif; ?>
 
 		<?php the_content(); ?>

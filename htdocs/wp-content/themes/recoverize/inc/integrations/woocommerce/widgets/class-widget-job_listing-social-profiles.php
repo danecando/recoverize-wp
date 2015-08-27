@@ -66,6 +66,10 @@ class Listify_Widget_Listing_Social_Profiles extends Listify_Widget {
 			if ( '' == $value ) {
 				continue;
 			}
+			
+			if ( $value && ! strstr( $value, 'http:' ) && ! strstr( $value, 'https:' ) ) {
+				$value = 'http://' . $value;
+			}
 
 			$output[] = sprintf( '<a href="%s" target="_blank" class="ion-social-%s">%s</a>', $value, $method, $label );
 		}

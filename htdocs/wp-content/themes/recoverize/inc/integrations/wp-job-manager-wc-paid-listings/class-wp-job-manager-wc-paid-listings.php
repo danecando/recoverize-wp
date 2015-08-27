@@ -15,6 +15,7 @@ class Listify_WP_Job_Manager_WCPL extends listify_Integration {
 	public function setup_actions() {
 		add_action( 'widgets_init', array( $this, 'widgets_init' ) );
 		add_filter( 'woocommerce_product_add_to_cart_url', array( $this, 'add_to_cart_url' ), 10, 2 );
+		add_action( 'wp_footer', array( $this, 'package_selection' ) );
 	}
 
 	public function widgets_init() {
@@ -42,11 +43,19 @@ class Listify_WP_Job_Manager_WCPL extends listify_Integration {
 			return $url;
 		}
 
-		if ( 'before' == get_option( 'job_manager_paid_listings_flow' ) ) {
-			$url = $submit;
+		$url = add_query_arg( 'selected_package', $product->id, $submit );
+
+		return esc_url( $url );
+	}
+
+	public function package_selection() {
+		if ( ! isset( $_GET[ 'selected_package' ] ) ) {
+			return;
 		}
 
-		return $url;
+		$package = absint( $_GET[ 'selected_package' ] );
+
+		echo '<input type="hidden" id="listify_selected_package" value="' . $package . '" />';
 	}
 
 }

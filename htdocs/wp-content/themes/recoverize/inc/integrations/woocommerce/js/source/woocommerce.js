@@ -17,6 +17,7 @@
 			this.cache.$document.on( 'ready', function() {
 				self.initRatings();
 				self.initSocialLogin(false);
+				self.initPackageSelection();
 
 				$( 'body' ).on( 'popup-trigger-ajax', function() {
 					self.initSocialLogin( $( '.popup' ) );
@@ -55,6 +56,18 @@
 
 			$social.remove();
 			$container.append( $clone );
+		},
+
+		initPackageSelection: function() {
+			var selectedPackage = $( '#listify_selected_package' );
+			
+			if ( selectedPackage.length == 0 ) {
+				return;
+			}
+			
+			var value = selectedPackage.val();
+
+			$( '.job_listing_packages' ).find( '#package-' + value ).attr( 'checked', 'checked' );
 		}
 	};
 

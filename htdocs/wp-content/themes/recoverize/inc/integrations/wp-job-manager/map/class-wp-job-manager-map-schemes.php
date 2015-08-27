@@ -15,14 +15,13 @@ class Listify_WP_Job_Manager_Map_Schemes {
 		$default = apply_filters( 'listify_map_default_styles', array(
 			array(
 				'featureType' => "poi",
-				'elementType' => "labels",
 				'stylers' => array(
-					'visibility' => "off"
+					array(
+						'visibility' => "off"
+					)
 				)
 			)
         ) );
-
-        $default = json_decode( json_encode( $default ) );
 
         return $default;
 	}
@@ -44,7 +43,7 @@ class Listify_WP_Job_Manager_Map_Schemes {
 		}
 
 		if ( $file ) {
-			$styles = json_decode( $file );
+			$styles = json_decode( $file, true );
 		}
 
 		$settings[ 'mapOptions' ][ 'styles' ] = array_merge( $this->default_styles(), $styles );

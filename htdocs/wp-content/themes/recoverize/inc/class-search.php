@@ -15,7 +15,11 @@ class Listify_Search {
 			return;
 		}
 
-		$query->set( 'post_type', 'post' );
+		if ( get_query_var( 's' ) ) {
+			$query->set( 'post_type', get_query_var( 'post_type' ) );
+		} else {
+			$query->set( 'post_type', 'post' );
+		}
 	}
 
 }

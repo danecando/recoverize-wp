@@ -14,10 +14,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Listify\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/theme/style\n"
-"POT-Creation-Date: 2015-05-05 15:01:45+00:00\n"
-"PO-Revision-Date: 2015-05-05 15:01+0000\n"
+"POT-Creation-Date: 2015-06-30 18:29:30+00:00\n"
+"PO-Revision-Date: 2015-06-30 18:22+0000\n"
 "Last-Translator: Spencer Finnell <spencerfinnell@gmail.com>\n"
-"Language-Team: German (Switzerland) (http://www.transifex.com/projects/p/listify/language/de_CH/)\n"
+"Language-Team: German (Switzerland) (http://www.transifex.com/astoundify/listify/language/de_CH/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -115,7 +115,7 @@ msgid "Recent Blog Posts"
 msgstr "Neueste Blog-Beiträge"
 
 #: author.php:171 inc/customizer/controls/class-controls-labels.php:30
-#: inc/integrations/woocommerce/class-woocommerce.php:130
+#: inc/integrations/woocommerce/class-woocommerce.php:128
 msgid "Social Profiles"
 msgstr "Soziale Profile"
 
@@ -665,7 +665,7 @@ msgstr "M j, Y @ G:i"
 msgid "%s draft updated. Preview"
 msgstr "%s Entwurf aktualisiert. Vorschau"
 
-#: inc/class-strings.php:263 inc/class-tgm-plugin-activation.php:1376
+#: inc/class-strings.php:263 inc/class-tgm-plugin-activation.php:1390
 msgid "Type"
 msgstr "Typ"
 
@@ -689,7 +689,7 @@ msgstr "Hervorgehoben?"
 msgid "Filled?"
 msgstr "Ausgefüllt?"
 
-#: inc/class-strings.php:269 inc/class-tgm-plugin-activation.php:1377
+#: inc/class-strings.php:269 inc/class-tgm-plugin-activation.php:1391
 msgid "Status"
 msgstr "Status"
 
@@ -906,7 +906,7 @@ msgid "Use file"
 msgstr "Datei wählen"
 
 #: inc/class-strings.php:323
-#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:360
+#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:364
 msgid "Upload"
 msgstr "Hochladen"
 
@@ -1215,7 +1215,7 @@ msgstr "Deine E-Mail-Adresse"
 msgid "(optional)"
 msgstr "(optional)"
 
-#: inc/class-strings.php:404 inc/template-tags.php:254
+#: inc/class-strings.php:404 inc/template-tags.php:257
 msgid "%s ago"
 msgstr "%s her"
 
@@ -1453,7 +1453,7 @@ msgid "%s listing posted out of %d"
 msgstr ""
 
 #: inc/class-strings.php:500
-msgid "%s listings posted out of %s"
+msgid "%s listings posted out of %d"
 msgstr ""
 
 #: inc/class-strings.php:503
@@ -1465,7 +1465,7 @@ msgid "%s listings posted"
 msgstr "%s Listings eingetragen"
 
 #: inc/class-strings.php:507
-msgid "%s for %d listing"
+msgid "%s for %s listing"
 msgstr ""
 
 #: inc/class-strings.php:508
@@ -1658,12 +1658,12 @@ msgid "Return to the dashboard"
 msgstr "Zurück zum Dashboard"
 
 #: inc/class-tgm-plugin-activation.php:177
-#: inc/class-tgm-plugin-activation.php:1939
+#: inc/class-tgm-plugin-activation.php:1956
 msgid "Plugin activated successfully."
 msgstr "Plugins erfolgreich aktiviert."
 
 #: inc/class-tgm-plugin-activation.php:178
-#: inc/class-tgm-plugin-activation.php:1630
+#: inc/class-tgm-plugin-activation.php:1644
 msgid "The following plugin was activated successfully:"
 msgstr "Das folgende Plugin wurde erfolgreich aktiviert:"
 
@@ -1675,142 +1675,144 @@ msgstr "Alle Plugins wurden erfolgreich installiert und aktiviert. %1$s"
 msgid "Dismiss this notice"
 msgstr "Diese Meldung ausblenden"
 
-#: inc/class-tgm-plugin-activation.php:531
-#: inc/class-tgm-plugin-activation.php:2156
+#: inc/class-tgm-plugin-activation.php:532
+#: inc/class-tgm-plugin-activation.php:2173
 msgid "Return to the Dashboard"
 msgstr "Zurück zum Dashboard"
 
-#: inc/class-tgm-plugin-activation.php:1166
+#: inc/class-tgm-plugin-activation.php:1167
+#: inc/class-tgm-plugin-activation.php:1348
 msgid "Private Repository"
 msgstr "Privat Repository"
 
-#: inc/class-tgm-plugin-activation.php:1169
+#: inc/class-tgm-plugin-activation.php:1170
+#: inc/class-tgm-plugin-activation.php:1351
 msgid "Pre-Packaged"
 msgstr ""
 
-#: inc/class-tgm-plugin-activation.php:1174
+#: inc/class-tgm-plugin-activation.php:1175
 msgid "WordPress Repository"
 msgstr "WordPress-Repository"
 
-#: inc/class-tgm-plugin-activation.php:1177
+#: inc/class-tgm-plugin-activation.php:1178
 msgid "Required"
 msgstr "Benötigt"
 
-#: inc/class-tgm-plugin-activation.php:1177
+#: inc/class-tgm-plugin-activation.php:1178
 msgid "Recommended"
 msgstr "Empfohlen"
 
-#: inc/class-tgm-plugin-activation.php:1180
+#: inc/class-tgm-plugin-activation.php:1181
 msgid "Not Installed"
 msgstr "Nicht installiert"
 
-#: inc/class-tgm-plugin-activation.php:1182
+#: inc/class-tgm-plugin-activation.php:1183
 msgid "Installed But Not Activated"
 msgstr "Installiert aber nicht aktiviert"
 
-#: inc/class-tgm-plugin-activation.php:1287
-#: inc/class-tgm-plugin-activation.php:1395
+#: inc/class-tgm-plugin-activation.php:1288
+#: inc/class-tgm-plugin-activation.php:1409
 msgid "Install"
 msgstr "Installieren"
 
-#: inc/class-tgm-plugin-activation.php:1309
-#: inc/class-tgm-plugin-activation.php:1396
+#: inc/class-tgm-plugin-activation.php:1312
+#: inc/class-tgm-plugin-activation.php:1410
 msgid "Activate"
 msgstr "Aktivieren"
 
-#: inc/class-tgm-plugin-activation.php:1358
+#: inc/class-tgm-plugin-activation.php:1372
 msgid ""
 "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
 "Dashboard\">Return to the Dashboard</a>"
 msgstr ""
 
-#: inc/class-tgm-plugin-activation.php:1374
+#: inc/class-tgm-plugin-activation.php:1388
 msgid "Plugin"
 msgstr "Plugin"
 
-#: inc/class-tgm-plugin-activation.php:1375
+#: inc/class-tgm-plugin-activation.php:1389
 msgid "Source"
 msgstr "Quelle"
 
-#: inc/class-tgm-plugin-activation.php:1922
+#: inc/class-tgm-plugin-activation.php:1939
 msgid "Install package not available."
 msgstr "Installations-Paket nicht verfügbar."
 
-#: inc/class-tgm-plugin-activation.php:1923
+#: inc/class-tgm-plugin-activation.php:1940
 msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
 msgstr "Herunterladen des Installationspakets von <span class=\"code\">%s</span>&#8230;"
 
-#: inc/class-tgm-plugin-activation.php:1924
+#: inc/class-tgm-plugin-activation.php:1941
 msgid "Unpacking the package&#8230;"
 msgstr "Package&#8230; entpacken"
 
-#: inc/class-tgm-plugin-activation.php:1925
+#: inc/class-tgm-plugin-activation.php:1942
 msgid "Installing the plugin&#8230;"
 msgstr "Das Plugin&#8230; installieren"
 
-#: inc/class-tgm-plugin-activation.php:1926
+#: inc/class-tgm-plugin-activation.php:1943
 msgid "Plugin install failed."
 msgstr "Plugin-Installation fehlgeschlagen."
 
-#: inc/class-tgm-plugin-activation.php:1927
+#: inc/class-tgm-plugin-activation.php:1944
 msgid "Plugin installed successfully."
 msgstr "Plugin-Installation erfolgreich."
 
-#: inc/class-tgm-plugin-activation.php:1938
+#: inc/class-tgm-plugin-activation.php:1955
 msgid "Plugin activation failed."
 msgstr "Plugin-Aktivierung fehlgeschlagen."
 
-#: inc/class-tgm-plugin-activation.php:2052
+#: inc/class-tgm-plugin-activation.php:2069
 msgid ""
 "The installation and activation process is starting. This process may take a"
 " while on some hosts, so please be patient."
 msgstr "Die Installation und Aktivierung wurde gestartet. Dieser Prozess kann je nach Hoster eine Weile dauern – bitte haben Sie Geduld."
 
-#: inc/class-tgm-plugin-activation.php:2053
+#: inc/class-tgm-plugin-activation.php:2070
 msgid "%1$s installed and activated successfully."
 msgstr "%1$s erfolgreich installiert und aktiviert."
 
-#: inc/class-tgm-plugin-activation.php:2053
-#: inc/class-tgm-plugin-activation.php:2062
+#: inc/class-tgm-plugin-activation.php:2070
+#: inc/class-tgm-plugin-activation.php:2079
 msgid "Show Details"
 msgstr "Zeige Details"
 
-#: inc/class-tgm-plugin-activation.php:2053
-#: inc/class-tgm-plugin-activation.php:2062
+#: inc/class-tgm-plugin-activation.php:2070
+#: inc/class-tgm-plugin-activation.php:2079
 msgid "Hide Details"
 msgstr "Details ausblenden"
 
-#: inc/class-tgm-plugin-activation.php:2054
+#: inc/class-tgm-plugin-activation.php:2071
 msgid "All installations and activations have been completed."
 msgstr "Alle Installationen und Aktivierungen sind erfolgt."
 
-#: inc/class-tgm-plugin-activation.php:2055
+#: inc/class-tgm-plugin-activation.php:2072
 msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
 msgstr "Installiere und aktiviere Plugin %1$s (%2$d/%3$d)"
 
-#: inc/class-tgm-plugin-activation.php:2059
+#: inc/class-tgm-plugin-activation.php:2076
 msgid ""
 "The installation process is starting. This process may take a while on some "
 "hosts, so please be patient."
 msgstr "Die Installation wurde gestartet. Dieser Prozess kann je nach Hoster eine Weile dauern – bitte haben Sie Geduld."
 
-#: inc/class-tgm-plugin-activation.php:2060
+#: inc/class-tgm-plugin-activation.php:2077
 msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
 msgstr "Ein Fehler ist bei der Installation von %1$s aufgetreten: <strong>%2$s</strong>."
 
-#: inc/class-tgm-plugin-activation.php:2061
+#: inc/class-tgm-plugin-activation.php:2078
 msgid "The installation of %1$s failed."
 msgstr "Die Installation von %1$s ist fehlgeschlagen."
 
-#: inc/class-tgm-plugin-activation.php:2062
+#: inc/class-tgm-plugin-activation.php:2079
 msgid "%1$s installed successfully."
 msgstr "%1$s erfolgreich installiert."
 
-#: inc/class-tgm-plugin-activation.php:2063
+#: inc/class-tgm-plugin-activation.php:2080
 msgid "All installations have been completed."
 msgstr "Alle Installationen waren erfolgreich."
 
-#: inc/class-tgm-plugin-activation.php:2064
+#: inc/class-tgm-plugin-activation.php:2081
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
 msgstr "Plugin %1$s (%2$d/%3$d) installieren"
 
@@ -2131,7 +2133,7 @@ msgid "Distance"
 msgstr "Distanz"
 
 #: inc/integrations/facetwp/class-facetwp-template.php:130
-#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:883
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:892
 #: sidebar-shop-archive.php:23
 msgid "Toggle Filters"
 msgstr "Toggle Filter"
@@ -2166,15 +2168,15 @@ msgstr ""
 msgid "Apply"
 msgstr ""
 
-#: inc/integrations/facetwp/includes/proximity.php:204
+#: inc/integrations/facetwp/includes/proximity.php:208
 msgid "Unit of measurement"
 msgstr ""
 
-#: inc/integrations/facetwp/includes/proximity.php:208
+#: inc/integrations/facetwp/includes/proximity.php:212
 msgid "Miles"
 msgstr ""
 
-#: inc/integrations/facetwp/includes/proximity.php:209
+#: inc/integrations/facetwp/includes/proximity.php:213
 msgid "Kilometers"
 msgstr ""
 
@@ -2227,44 +2229,44 @@ msgid_plural "Items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: inc/integrations/woocommerce/class-woocommerce.php:52
+#: inc/integrations/woocommerce/class-woocommerce.php:53
 msgid "Product Sidebar"
 msgstr "Produkt-Sidebar"
 
-#: inc/integrations/woocommerce/class-woocommerce.php:61
+#: inc/integrations/woocommerce/class-woocommerce.php:62
 msgid "Shop Sidebar"
 msgstr "Shop-Sidebar"
 
-#: inc/integrations/woocommerce/class-woocommerce.php:99
+#: inc/integrations/woocommerce/class-woocommerce.php:100
 msgid "Twitter URL"
 msgstr "Twitter URL"
 
-#: inc/integrations/woocommerce/class-woocommerce.php:100
+#: inc/integrations/woocommerce/class-woocommerce.php:101
 msgid "Facebook URL"
 msgstr "Facebook URL"
 
-#: inc/integrations/woocommerce/class-woocommerce.php:101
+#: inc/integrations/woocommerce/class-woocommerce.php:102
 msgid "Google+ URL"
 msgstr "Google+ URL"
 
-#: inc/integrations/woocommerce/class-woocommerce.php:102
+#: inc/integrations/woocommerce/class-woocommerce.php:103
 msgid "Pinterest URL"
 msgstr "Pinterest URL"
 
-#: inc/integrations/woocommerce/class-woocommerce.php:103
+#: inc/integrations/woocommerce/class-woocommerce.php:104
 msgid "LinkedIn URL"
 msgstr "LinkedIn URL"
 
-#: inc/integrations/woocommerce/class-woocommerce.php:104
+#: inc/integrations/woocommerce/class-woocommerce.php:105
 msgid "GitHub URL"
 msgstr "GitHub URL"
 
-#: inc/integrations/woocommerce/class-woocommerce.php:105
+#: inc/integrations/woocommerce/class-woocommerce.php:106
 msgid "Instagram URL"
 msgstr ""
 
-#: inc/integrations/woocommerce/class-woocommerce.php:121
-#: inc/integrations/woocommerce/class-woocommerce.php:124
+#: inc/integrations/woocommerce/class-woocommerce.php:117
+#: inc/integrations/woocommerce/class-woocommerce.php:120
 msgid "Biography"
 msgstr "Biografie"
 
@@ -2334,8 +2336,9 @@ msgstr ""
 msgid "Feed for all posts filed under %s"
 msgstr ""
 
-#: inc/integrations/wp-job-manager/class-wp-job-manager-business-hours.php:38
-#: inc/integrations/wp-job-manager/class-wp-job-manager-business-hours.php:59
+#: inc/integrations/wp-job-manager/class-wp-job-manager-business-hours.php:45
+#: inc/integrations/wp-job-manager/class-wp-job-manager-business-hours.php:117
+#: inc/integrations/wp-job-manager/class-wp-job-manager-writepanels.php:13
 #: sidebar-single-job_listing.php:57
 msgid "Hours of Operation"
 msgstr "Öffnungszeiten"
@@ -2386,32 +2389,32 @@ msgstr "Fotos hinzufügen"
 msgid "No images selected."
 msgstr ""
 
-#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:241
+#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:245
 msgid "%s Gallery"
 msgstr "%s Galerie"
 
-#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:267
+#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:271
 msgid "Manage gallery images"
 msgstr "Manage Galerie-Bilder"
 
-#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:268
+#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:272
 msgid "Clear gallery"
 msgstr "Lösche Gallerie"
 
-#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:357
+#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:361
 #: popup-content-single-job_listing-add-photo.php:18
 msgid "Add Images to Gallery"
 msgstr "Bilder der Galerie hinzufügen"
 
-#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:358
+#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:362
 msgid "Add to gallery"
 msgstr "Zur Galerie hinzufügen"
 
-#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:359
+#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:363
 msgid "Delete image"
 msgstr "Bild löschen"
 
-#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:361
+#: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:365
 msgid "Select this"
 msgstr "Auswählen"
 
@@ -2435,43 +2438,43 @@ msgstr "Galerie-Bilder"
 msgid "Company %s"
 msgstr ""
 
-#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:299
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:302
 msgid "%s Archives - Sidebar"
 msgstr "%s Archive - Sidebar"
 
-#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:308
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:311
 msgid "Single %s - Main Content"
 msgstr "Single %s - Hauptinhalt"
 
-#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:317
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:320
 msgid "Single %s - Sidebar"
 msgstr "Single %s - Sidebar"
 
-#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:344
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:347
 msgid "Browse %s"
 msgstr "%s"
 
-#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:361
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:364
 msgid "Select a %s"
 msgstr ""
 
-#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:378
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:382
 msgid "View All"
 msgstr "Alle ansehen"
 
-#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:718
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:726
 msgid "Submit a Review"
 msgstr "Bewertung abgeben"
 
-#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:779
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:787
 msgid "Filter by type:"
 msgstr "Filtern nach Typ:"
 
-#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:801
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:809
 msgid "Loading..."
 msgstr ""
 
-#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:867
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:875
 msgid "<span class=\"results-found\">%s</span> Results Found"
 msgstr "<span class=\"results-found\">%s</span> Ergebnisse gefunden"
 
@@ -2782,23 +2785,23 @@ msgstr "Zeige die verfügbaren Package-Preise für die Einträge"
 msgid "Listify - Page: Pricing Table"
 msgstr "Listify - Eintrag: Preistabelle"
 
-#: inc/integrations/wp-job-manager-wc-paid-listings/widgets/class-widget-pricing-table.php:97
+#: inc/integrations/wp-job-manager-wc-paid-listings/widgets/class-widget-pricing-table.php:96
 msgid "Get Started Now"
 msgstr "Jetzt starten"
 
-#: inc/template-tags.php:233
+#: inc/template-tags.php:236
 msgid "Listing Owner"
 msgstr "Eigentümer"
 
-#: inc/template-tags.php:241
+#: inc/template-tags.php:244
 msgid "<span class=\"ion-edit\"></span>"
 msgstr "<span class=\"ion-edit\"></span>"
 
-#: inc/template-tags.php:245
+#: inc/template-tags.php:248
 msgid "Your comment is awaiting moderation."
 msgstr "Ihr Kommentar wartet auf Freigabe."
 
-#: inc/template-tags.php:287
+#: inc/template-tags.php:290
 msgid "Post navigation"
 msgstr "Post-navigation"
 
@@ -3059,22 +3062,38 @@ msgctxt "Montserrat font: on or off"
 msgid "on"
 msgstr "an"
 
+#: inc/class-strings.php:135
+msgctxt ""
+"the singular \"listing\" label used in permalinks\". only transalte this if "
+"you are using Polylang and need to force the slugs to remain in a single "
+"language."
+msgid "%s"
+msgstr ""
+
+#: inc/class-strings.php:136
+msgctxt ""
+"the plural \"listing\" label used in permalinks\". only transalte this if "
+"you are using Polylang and need to force the slugs to remain in a single "
+"language."
+msgid "%s"
+msgstr ""
+
 #: inc/integrations/wp-job-manager/class-wp-job-manager-gallery.php:10
 msgctxt "gallery endpoint slug"
 msgid "gallery"
 msgstr "galerie"
 
-#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:795
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:803
 msgctxt "search filters submit"
 msgid "Update %s"
 msgstr "Update %s"
 
-#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:798
+#: inc/integrations/wp-job-manager/class-wp-job-manager-template.php:806
 msgctxt "search filters submit"
 msgid "Search %s"
 msgstr "Suche"
 
-#: inc/template-tags.php:178
+#: inc/template-tags.php:181
 msgctxt "noun"
 msgid "Menu"
 msgstr "Menü"

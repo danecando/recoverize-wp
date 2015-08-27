@@ -19,6 +19,7 @@ class Listify_WP_Job_Manager extends listify_Integration {
 			'class-wp-job-manager-template.php',
 			'class-wp-job-manager-submission.php',
 			'class-wp-job-manager-categories.php',
+			'class-wp-job-manager-writepanels.php',
 			'class-taxonomy-breadcrumbs.php'
 		);
 
@@ -45,6 +46,11 @@ class Listify_WP_Job_Manager extends listify_Integration {
 		add_filter( 'get_job_listings_query_args', array( $this, 'get_job_listings_query_args' ), 10, 2 );
 
 		add_filter( 'submit_job_form_login_url', array( $this, 'login_url' ) );
+
+		add_filter( 'job_manager_job_dashboard_columns', array( $this, 'job_manager_job_dashboard_columns' ) );
+		add_filter( 'job_manager_my_job_actions', array( $this, 'job_manager_my_job_actions' ) );
+
+        add_filter( 'job_manager_get_listings_custom_filter_rss_args', array( $this, 'job_manager_get_listings_custom_filter_rss_args' ) );
 	}
 
 	function remove_translations() {
@@ -62,6 +68,10 @@ class Listify_WP_Job_Manager extends listify_Integration {
 		$this->services = new Listify_WP_Job_Manager_Services;
 		$this->submission = new Listify_WP_Job_Manager_Submission;
 		$this->categories = new Listify_WP_Job_Manager_Categories;
+
+		if ( is_admin() ) {
+			$this->writepanels = new Listify_WP_Job_Manager_Writepanels;
+		}
 	}
 
 	public function after_setup_theme() {
@@ -164,6 +174,27 @@ class Listify_WP_Job_Manager extends listify_Integration {
 
 		return get_permalink( wc_get_page_id( 'myaccount' ) );
 	}
+
+	public function job_manager_job_dashboard_columns( $columns ) {
+		unset( $columns[ 'filled' ] );
+	
+		return $columns;
+	}
+
+	public function job_manager_my_job_actions( $actions ) {
+		unset( $actions[ 'mark_not_filled' ] );
+		unset( $actions[ 'mark_filled' ] );
+
+		return $actions;
+	}
+
+    public function job_manager_get_listings_custom_filter_rss_args( $args ) { 
+        if ( listify_theme_mod( 'categories-only' ) ) {
+            unset( $args[ 'job_types' ] );
+        }
+
+        return $args;
+    }
 
 }
 

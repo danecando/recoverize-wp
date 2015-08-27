@@ -8,8 +8,8 @@
 $defaults = array(
 	'before_widget' => '<aside class="widget widget-product">',
 	'after_widget'  => '</aside>',
-	'before_title'  => '<h1 class="widget-title widget-title-product %s">',
-	'after_title'   => '</h1>',
+	'before_title'  => '<h3 class="widget-title widget-title-product %s">',
+	'after_title'   => '</h3>',
 	'widget_id'     => ''
 );
 

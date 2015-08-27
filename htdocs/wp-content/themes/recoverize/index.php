@@ -10,7 +10,7 @@
  *
  * @package Listify
  */
-//
+
 get_header(); ?>
 
 	<?php if ( is_home() ) : ?>
@@ -21,7 +21,7 @@ get_header(); ?>
 	<?php endif; ?>
 
 	<div id="primary" class="container">
-		<div class="row content-area">
+	    <div class="row content-area">
 
 			<main id="main" class="site-main col-md-8 col-sm-7 col-xs-12" role="main">
 

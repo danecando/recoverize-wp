@@ -213,6 +213,8 @@ class Listify_WP_Job_Manager_Submission extends Listify_Integration {
 		$images = $values[ 'job' ][ 'gallery_images' ];
 
 		if ( ! isset( $images ) || empty( $images ) ) {
+			update_post_meta( $job_id, '_gallery', '[gallery ids=]' );
+
 			return;
 		}
 

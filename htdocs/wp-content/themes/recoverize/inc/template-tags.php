@@ -114,19 +114,30 @@ function listify_tertiary_menu() {
 		return;
 	}
 
+    ob_start();
+
+    wp_nav_menu( array(
+        'theme_location' => 'tertiary',
+        'container_class' => 'navigation-bar nav-menu',
+        'menu_class' => 'tertiary nav-menu'
+    ) );
+
+    $menu = ob_get_clean();
+
+    if ( '' == $menu ) {
+        return;
+    }
+
 	remove_filter( 'the_title', 'wc_page_endpoint_title' );
 ?>
 	<nav class="tertiary-navigation" role="navigation">
 		<div class="container">
-			<a href="#" class="navigation-bar-toggle"><i class="ion-navicon-round"></i></a>
+			<a href="#" class="navigation-bar-toggle">
+				<i class="ion-navicon-round"></i>
+				<?php echo listify_get_theme_menu_name( 'tertiary' ); ?>
+			</a>
 			<div class="navigation-bar-wrapper">
-				<?php
-					wp_nav_menu( array(
-						'theme_location' => 'tertiary',
-						'container_class' => 'navigation-bar nav-menu',
-						'menu_class' => 'tertiary nav-menu'
-					) );
-				?>
+				<?php echo $menu; ?>
 			</div>
 		</div>
 	</nav><!-- #site-navigation -->

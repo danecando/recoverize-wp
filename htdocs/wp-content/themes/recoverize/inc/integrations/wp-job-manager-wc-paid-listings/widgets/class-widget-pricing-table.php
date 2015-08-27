@@ -122,9 +122,16 @@ class Listify_Widget_WCPL_Pricing_Table extends Listify_Widget {
 					'terms'    => array( 'job_package', 'job_package_subscription' )
 				)
 			),
+			'meta_query' => array(
+				array(
+					'key'     => '_visibility',
+					'value'   => array( 'visible', 'catalog' ),
+					'compare' => 'IN'
+				)
+			),
 			'orderby' => 'menu_order',
 			'order' => 'asc',
-			'lang' => substr( get_locale(), 0, 2 )
+			'lang' => defined( 'ICL_LANGUAGE_CODE' ) ? ICL_LANGUAGE_CODE : substr( get_locale(), 0, 2 )
 		) ) );
 
 		return $packages;

@@ -156,8 +156,8 @@ get_header(); ?>
 							'id'            => 'widget-area-sidebar-1',
 							'before_widget' => '<aside class="widget widget_recent_posts">',
 							'after_widget'  => '</aside>',
-							'before_title'  => '<h1 class="widget-title ion-clipboard">',
-							'after_title'   => '</h1>',
+							'before_title'  => '<h3 class="widget-title ion-clipboard">',
+							'after_title'   => '</h3>',
 						)
 					);
 				?>

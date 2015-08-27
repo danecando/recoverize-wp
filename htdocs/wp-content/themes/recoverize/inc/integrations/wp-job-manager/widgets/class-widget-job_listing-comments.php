@@ -44,7 +44,7 @@ class Listify_Widget_Listing_Comments extends Listify_Widget {
 
 		global $post;
 
-		if ( 'preview' == $post->post_status ) {
+		if ( 'publish' != $post->post_status ) {
 			return;
 		}
 

@@ -68,7 +68,7 @@ class Listify_Widget_Listing_Author extends Listify_Widget {
 				<div class="job_listing-author-info-more">
 					<a href="#job_listing-author-apply" data-mfp-src=".job_application" class="popup-trigger"><span class="ion-email"></span></a>
 
-					<?php if ( ! is_position_filled() && $post->post_status !== 'preview' ) get_job_manager_template( 'job-application.php' ); ?>
+					<?php if ( ! is_position_filled() && $post->post_status == 'publish' ) get_job_manager_template( 'job-application.php' ); ?>
 
 					<a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>"><span class="ion-information-circled"></span></a>
 				</div>

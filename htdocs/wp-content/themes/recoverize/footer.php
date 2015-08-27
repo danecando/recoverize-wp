@@ -67,8 +67,6 @@
 
 </div><!-- #page -->
 
-<?php get_template_part('partials/content', 'help-pop'); ?>
-
 <div id="ajax-response"></div>
 
 <?php wp_footer(); ?>

@@ -84,8 +84,8 @@ get_header(); ?>
 					$defaults = array(
 						'before_widget' => '<aside class="home-widget">',
 						'after_widget'  => '</aside>',
-						'before_title'  => '<div class="home-widget-section-title"><h1 class="home-widget-title">',
-						'after_title'   => '</h1></div>',
+						'before_title'  => '<div class="home-widget-section-title"><h3 class="home-widget-title">',
+						'after_title'   => '</h3></div>',
 						'widget_id'     => ''
 					);
 

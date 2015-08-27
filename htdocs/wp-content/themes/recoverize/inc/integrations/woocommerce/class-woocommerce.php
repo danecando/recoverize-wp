@@ -110,11 +110,6 @@ class Listify_WooCommerce extends listify_Integration {
 
 	public function woocommerce_edit_account_form() {
 		$methods = wp_get_user_contact_methods( get_current_user_id() );
-
-		if ( empty( $methods ) ) {
-			return;
-		}
-
 		$user = wp_get_current_user();
 	?>
 
@@ -127,6 +122,8 @@ class Listify_WooCommerce extends listify_Integration {
 			</p>
 		</fieldset>
 
+		<?php if ( ! empty( $methods ) ) : ?>
+
 		<fieldset>
 			<legend><?php _e( 'Social Profiles', 'listify' ); ?></legend>
 
@@ -137,6 +134,8 @@ class Listify_WooCommerce extends listify_Integration {
 				</p>
 			<?php endforeach; ?>
 		</fieldset>
+
+		<?php endif; ?>
 
 	<?php
 	}
@@ -165,6 +164,10 @@ class Listify_WooCommerce extends listify_Integration {
 	 * Apparently this is a better Italian address format.
 	 */
 	public function address_formats( $formats ) {
+		if ( is_admin() ) {
+			return $formats;
+		}
+
 		$street_after = "{address_1} {street_number}\n{address_2}\n{postcode} {city}\n{country}";
 
 		$formats[ 'IT' ] = "{address_1}\n{address_2}\n{postcode} {city} {state}\n{country}"; 
@@ -184,6 +187,10 @@ class Listify_WooCommerce extends listify_Integration {
 	}
 	
 	public function address_formats_shim( $formats ) {
+		if ( is_admin() ) {
+			return $formats;
+		}
+
 		foreach ( $formats as $country => $format ) {
 			if ( strpos( $format, '{street_number}' ) == false ) {
 				$formats[ $country ] = str_replace( '{address_1}', '{street_number} {address_1}', $format );
@@ -195,6 +202,10 @@ class Listify_WooCommerce extends listify_Integration {
 
 	public function address_schema( $replacements, $args ) {
 		global $post;
+
+		if ( is_admin() ) {
+			return $replacements;
+		}
 
 		if ( ! is_a( $post, 'WP_Post' ) ) {
 			return $replacements;
@@ -228,6 +239,10 @@ class Listify_WooCommerce extends listify_Integration {
 	}
 
 	public function address_replacements( $replacements, $args ) {
+		if ( is_admin() ) {
+			return $replacements;
+		}
+
 		$street_number = isset( $args[ 'street_number' ] ) && '' != $args[ 'street_number' ] ? $args[ 'street_number' ] : false;
 		$replacements[ '{street_number}' ] = $street_number;
 

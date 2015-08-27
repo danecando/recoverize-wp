@@ -156,7 +156,7 @@ module.exports = function(grunt) {
 
 		exec: {
 			txpull: {
-				cmd: 'tx pull -a --minimum-perc=75'
+				cmd: 'tx pull -af --skip --minimum-perc=75'
 			},
 			txpush_s: {
 				cmd: 'tx push -s'
