@@ -4,12 +4,14 @@ wp-config.php
 node_modules
 logs/
 deploy.php
+/conf/nginx/pagespeed.conf
 /htdocs/wp-content/plugins/acf-gallery
 /htdocs/wp-content/plugins/acf-repeater
 /htdocs/wp-content/plugins/advanced-custom-fields
 /htdocs/wp-content/plugins/akismet
 /htdocs/wp-content/plugins/amazon-s3-and-cloudfront
 /htdocs/wp-content/plugins/amazon-web-services
+/htdocs/wp-content/plugins/busted
 /htdocs/wp-content/plugins/gravityforms
 /htdocs/wp-content/plugins/ilmenite-olark
 /htdocs/wp-content/plugins/index.php
@@ -48,6 +50,7 @@ conf/nginx/nginx.conf
 /htdocs/.htaccess
 /htdocs/nginx.conf
 /htdocs/wp-includes/SimplePie/Cache/DB.php
+/htdocs/wp-settings.php
 config.codekit
 .codekit-cache
 .sass-cache
