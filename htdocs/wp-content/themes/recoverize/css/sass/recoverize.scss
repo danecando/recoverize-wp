@@ -228,6 +228,75 @@ $secondary-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-align: center;
 }
 
+/**
+ * Footer Styles
+ */
+
+.footer-widget-title {
+  letter-spacing: 1.5px;
+  font-size: em(19);
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.footer-widget-column {
+
+  .widget_nav_menu a {
+    font-family: $secondary-font;
+    letter-spacing: 1.25px;
+  }
+}
+
+.footer-widget-column:first-of-type {
+
+  .textwidget {
+    font-family: $secondary-font !important;
+    font-size: em(17);
+    letter-spacing: 1px;
+
+    form {
+      margin-top: 20px;
+
+      input {
+        width: 65%;
+        border: 0;
+      }
+
+      input[type="text"]::-webkit-input-placeholder {
+        font-weight: $secondary-font;
+        font-weight: 400;
+        letter-spacing: 1px;
+      }
+
+      input[type="text"]:-moz-placeholder { /* Firefox 18- */
+        text-align: center;
+        font-weight: $secondary-font;
+        font-weight: 400;
+
+      }
+
+      input[type="text"]::-moz-placeholder {  /* Firefox 19+ */
+        text-align: center;
+        font-weight: $secondary-font;
+        font-weight: 400;
+
+      }
+
+      .sumome-popup .sumome-popup-content .sumome-popup-form input[type="text"]:-ms-input-placeholder {
+        text-align: center;
+        font-weight: $secondary-font;
+        font-weight: 400;
+
+      }
+
+      button {
+        padding: 9px 20px;
+        letter-spacing: .5px;
+      }
+    }
+  }
+}
+
 
 /**
  * SumoMe Style Overrides
@@ -237,9 +306,66 @@ $secondary-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   display: none;
 }
 
+.sumome-popup .sumome-popup-content .sumome-popup-form {
+  padding: 20px;
+}
+
 .sumome-popup .sumome-popup-content .sumome-popup-form div.sumome-popup-text {
-  font-family: $secondary-font;
-  font-weight: 100;
+  font-family: inherit;
   text-align: center;
-  font-size: em(16);
+  font-size: em(14);
+  color: #333;
+}
+
+.sumome-popup-heading {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: rgb(18, 56, 101);
+
+}
+
+.sumome-popup .sumome-popup-content .sumome-popup-form .sumome-popup-button, .sumome-popup .sumome-popup-content .sumome-popup-form .sumome-popup-button-text {
+  font-family: inherit;
+}
+
+.sumome-popup .sumome-popup-content .sumome-popup-form button {
+  text-transform: capitalize;
+}
+
+.sumome-popup .sumome-popup-content .sumome-popup-form input[type="text"] {
+  box-shadow: 0 0 0;
+
+}
+
+.sumome-popup .sumome-popup-content .sumome-popup-form input[type="text"]:focus {
+  box-shadow: 0 0 0;
+}
+
+.sumome-popup .sumome-popup-content .sumome-popup-form input[type="text"]::-webkit-input-placeholder {
+  text-align: center;
+  font-weight: $secondary-font;
+  font-weight: 400;
+
+}
+
+.sumome-popup .sumome-popup-content .sumome-popup-form input[type="text"]:-moz-placeholder { /* Firefox 18- */
+  text-align: center;
+  font-weight: $secondary-font;
+  font-weight: 400;
+
+}
+
+.sumome-popup .sumome-popup-content .sumome-popup-form input[type="text"]::-moz-placeholder {  /* Firefox 19+ */
+  text-align: center;
+  font-weight: $secondary-font;
+  font-weight: 400;
+
+}
+
+.sumome-popup .sumome-popup-content .sumome-popup-form input[type="text"]:-ms-input-placeholder {
+  text-align: center;
+  font-weight: $secondary-font;
+  font-weight: 400;
+
 }

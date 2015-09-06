@@ -13,30 +13,30 @@ class RC_Stories_Post_Types {
 
 	public function recovery_stories_post_type() {
 
-		if ( post_type_exists( 'recovery_stories' ) ) {
+		if ( post_type_exists( 'recovery-stories' ) ) {
 			return;
 		}
 
 		$labels = array(
-			'name'               => _x( 'Stories', 'Post Type General Name', 'rc_stories' ),
-			'singular_name'      => _x( 'Story', 'Post Type Singular Name', 'rc_stories' ),
-			'menu_name'          => __( 'Stories', 'rc_stories' ),
-			'name_admin_bar'     => __( 'Stories', 'rc_stories' ),
-			'parent_item_colon'  => __( 'Parent Item:', 'rc_stories' ),
-			'all_items'          => __( 'All Stories', 'rc_stories' ),
-			'add_new_item'       => __( 'Add Story', 'rc_stories' ),
-			'add_new'            => __( 'Add New', 'rc_stories' ),
-			'new_item'           => __( 'New Story', 'rc_stories' ),
-			'edit_item'          => __( 'Edit Story', 'rc_stories' ),
-			'update_item'        => __( 'Update Story', 'rc_stories' ),
-			'view_item'          => __( 'View Story', 'rc_stories' ),
-			'search_items'       => __( 'Search Stories', 'rc_stories' ),
-			'not_found'          => __( 'Not found', 'rc_stories' ),
-			'not_found_in_trash' => __( 'Not found in Trash', 'rc_stories' ),
+			'name'               => _x( 'Stories', 'Post Type General Name', 'rc-stories' ),
+			'singular_name'      => _x( 'Story', 'Post Type Singular Name', 'rc-stories' ),
+			'menu_name'          => __( 'Stories', 'rc-stories' ),
+			'name_admin_bar'     => __( 'Stories', 'rc-stories' ),
+			'parent_item_colon'  => __( 'Parent Item:', 'rc-stories' ),
+			'all_items'          => __( 'All Stories', 'rc-stories' ),
+			'add_new_item'       => __( 'Add Story', 'rc-stories' ),
+			'add_new'            => __( 'Add New', 'rc-stories' ),
+			'new_item'           => __( 'New Story', 'rc-stories' ),
+			'edit_item'          => __( 'Edit Story', 'rc-stories' ),
+			'update_item'        => __( 'Update Story', 'rc-stories' ),
+			'view_item'          => __( 'View Story', 'rc-stories' ),
+			'search_items'       => __( 'Search Stories', 'rc-stories' ),
+			'not_found'          => __( 'Not found', 'rc-stories' ),
+			'not_found_in_trash' => __( 'Not found in Trash', 'rc-stories' ),
 		);
 		$args   = array(
-			'label'               => __( 'recovery_stories', 'rc_stories' ),
-			'description'         => __( 'Default post type to map locations to maps', 'rc_stories' ),
+			'label'               => __( 'recovery-stories', 'rc-stories' ),
+			'description'         => __( 'Default post type to map locations to maps', 'rc-stories' ),
 			'labels'              => $labels,
 			'supports'            => array(
 				'title',
@@ -66,7 +66,7 @@ class RC_Stories_Post_Types {
 			'capability_type'     => 'page',
 		);
 
-		register_post_type( 'recovery_stories', $args );
+		register_post_type( 'recovery-stories', $args );
 	}
 
 	public function speaker_tapes_post_type() {
@@ -76,25 +76,25 @@ class RC_Stories_Post_Types {
 		}
 
 		$labels = array(
-			'name'               => _x( 'Speaker Tapes', 'Post Type General Name', 'rc_stories' ),
-			'singular_name'      => _x( 'Speaker Tape', 'Post Type Singular Name', 'rc_stories' ),
-			'menu_name'          => __( 'Speaker Tapes', 'rc_stories' ),
-			'name_admin_bar'     => __( 'Speaker Tapes', 'rc_stories' ),
-			'parent_item_colon'  => __( 'Parent Item:', 'rc_stories' ),
-			'all_items'          => __( 'All Speaker Tapes', 'rc_stories' ),
-			'add_new_item'       => __( 'Add Speaker Tape', 'rc_stories' ),
-			'add_new'            => __( 'Add New', 'rc_stories' ),
-			'new_item'           => __( 'New Speaker Tape', 'rc_stories' ),
-			'edit_item'          => __( 'Edit Speaker Tape', 'rc_stories' ),
-			'update_item'        => __( 'Update Speaker Tape', 'rc_stories' ),
-			'view_item'          => __( 'View Speaker Tape', 'rc_stories' ),
-			'search_items'       => __( 'Search Speaker Tapes', 'rc_stories' ),
-			'not_found'          => __( 'Not found', 'rc_stories' ),
-			'not_found_in_trash' => __( 'Not found in Trash', 'rc_stories' ),
+			'name'               => _x( 'Speaker Tapes', 'Post Type General Name', 'rc-stories' ),
+			'singular_name'      => _x( 'Speaker Tape', 'Post Type Singular Name', 'rc-stories' ),
+			'menu_name'          => __( 'Speaker Tapes', 'rc-stories' ),
+			'name_admin_bar'     => __( 'Speaker Tapes', 'rc-stories' ),
+			'parent_item_colon'  => __( 'Parent Item:', 'rc-stories' ),
+			'all_items'          => __( 'All Speaker Tapes', 'rc-stories' ),
+			'add_new_item'       => __( 'Add Speaker Tape', 'rc-stories' ),
+			'add_new'            => __( 'Add New', 'rc-stories' ),
+			'new_item'           => __( 'New Speaker Tape', 'rc-stories' ),
+			'edit_item'          => __( 'Edit Speaker Tape', 'rc-stories' ),
+			'update_item'        => __( 'Update Speaker Tape', 'rc-stories' ),
+			'view_item'          => __( 'View Speaker Tape', 'rc-stories' ),
+			'search_items'       => __( 'Search Speaker Tapes', 'rc-stories' ),
+			'not_found'          => __( 'Not found', 'rc-stories' ),
+			'not_found_in_trash' => __( 'Not found in Trash', 'rc-stories' ),
 		);
 		$args   = array(
-			'label'               => __( 'speaker_tapes', 'rc_stories' ),
-			'description'         => __( 'Default post type to map locations to maps', 'rc_stories' ),
+			'label'               => __( 'speaker_tapes', 'rc-stories' ),
+			'description'         => __( 'Default post type to map locations to maps', 'rc-stories' ),
 			'labels'              => $labels,
 			'supports'            => array(
 				'title',
@@ -124,7 +124,7 @@ class RC_Stories_Post_Types {
 			'capability_type'     => 'page',
 		);
 
-		register_post_type( 'speaker_tapes', $args );
+		register_post_type( 'speaker-tapes', $args );
 	}
 }
 

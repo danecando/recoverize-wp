@@ -1,10 +1,10 @@
-# Copyright (C) 2015 Astoundify
+# Copyright (C) 2015 Dane Grant
 # This file is distributed under the GNU General Public License.
 msgid ""
 msgstr ""
-"Project-Id-Version: Listify 1.0.6\n"
+"Project-Id-Version: Recoverize Theme 1.0.4\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/theme/style\n"
-"POT-Creation-Date: 2015-08-20 14:34:52+00:00\n"
+"POT-Creation-Date: 2015-09-06 07:03:20+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -94,7 +94,7 @@ msgstr ""
 
 #: author.php:115
 msgid ""
-"%s's\n"
+"%s's\r\n"
 "\t\t\t\t\t\tFavorites (%d)"
 msgstr ""
 
@@ -211,47 +211,51 @@ msgstr ""
 msgid "Read More"
 msgstr ""
 
-#: functions.php:55
+#: functions.php:56
 msgid "Primary Menu (header)"
 msgstr ""
 
-#: functions.php:56
+#: functions.php:57
 msgid "Secondary Menu"
 msgstr ""
 
-#: functions.php:57
+#: functions.php:58
 msgid "Tertiary Menu"
 msgstr ""
 
-#: functions.php:58
+#: functions.php:59
 msgid "Social Menu (footer)"
 msgstr ""
 
-#: functions.php:104
+#: functions.php:60
+msgid "Top Bar Menu"
+msgstr ""
+
+#: functions.php:106
 msgid "Sidebar"
 msgstr ""
 
-#: functions.php:114
+#: functions.php:116
 msgid "Homepage"
 msgstr ""
 
-#: functions.php:115
+#: functions.php:117
 msgid "Widgets that appear on the \"Homepage\" Page Template"
 msgstr ""
 
-#: functions.php:125
+#: functions.php:127
 msgid "Footer Column 1 (wide)"
 msgstr ""
 
-#: functions.php:135
+#: functions.php:137
 msgid "Footer Column 2"
 msgstr ""
 
-#: functions.php:145
+#: functions.php:147
 msgid "Footer Column 3"
 msgstr ""
 
-#: functions.php:259
+#: functions.php:264
 #: inc/integrations/wp-job-manager/class-wp-job-manager-business-hours.php:103
 #: inc/integrations/wp-job-manager/class-wp-job-manager-business-hours.php:104
 #: inc/integrations/wp-job-manager/widgets/class-widget-job_listing-business-hours.php:98
@@ -318,9 +322,9 @@ msgstr ""
 #: inc/class-setup.php:53
 msgid ""
 "The Listify theme package includes multiple demo content .XML files. This "
-"is what you will\n"
+"is what you will\r\n"
 "\t\t\t\t\tupload to the WordPress importer. Depending on the plugins you "
-"have activated or the intended use of your\n"
+"have activated or the intended use of your\r\n"
 "\t\t\t\t\twebsite you may not need to upload all .XML files."
 msgstr ""
 
@@ -366,9 +370,9 @@ msgstr ""
 #: inc/class-setup.php:101
 msgid ""
 "In order to display custom widgets on your homepage you must first assign "
-"your static\n"
+"your static\r\n"
 "\t\t\t\t\tpage in the WordPress settings. You can also set which page will "
-"display your blog posts. If you have\n"
+"display your blog posts. If you have\r\n"
 "\t\t\t\t\timported the theme demo content you&#39;ll want to set the page "
 "called \"Search Your City\" as your homepage."
 msgstr ""
@@ -437,9 +441,9 @@ msgstr ""
 
 #: inc/class-setup.php:308
 msgid ""
-"The last directory you will ever buy.\n"
+"The last directory you will ever buy.\r\n"
 "\tUse the steps below to finish setting up your new website. If you have "
-"more questions\n"
+"more questions\r\n"
 "\tplease <a href=\"%s\">review the documentation</a>."
 msgstr ""
 
@@ -1939,8 +1943,8 @@ msgstr ""
 
 #: inc/customizer/class-customizer-panels.php:24
 msgid ""
-"Choose a color scheme and continue to\n"
-"\t\t\t\t\t\tcustomize based on your brand. Certain schemes use the\n"
+"Choose a color scheme and continue to\r\n"
+"\t\t\t\t\t\tcustomize based on your brand. Certain schemes use the\r\n"
 "\t\t\t\t\t\tcolors differently so be sure to experiment!"
 msgstr ""
 
@@ -2092,9 +2096,9 @@ msgstr ""
 
 #: inc/customizer/controls/class-controls-labels.php:45
 msgid ""
-"Categories will be used to create map markers, and types will\n"
+"Categories will be used to create map markers, and types will\r\n"
 "\t\t\t\tbe hidden from all other areas. Categories must be enabled in "
-"Listings > Settings.\n"
+"Listings > Settings.\r\n"
 "\t\t\t\t<br /><br />Refresh this page in your browser after saving."
 msgstr ""
 
@@ -2590,7 +2594,7 @@ msgstr ""
 #: inc/integrations/wp-job-manager/map/customizer/class-customizer-controls-map-appearance.php:23
 msgid ""
 "Some color schemes may show/hide extra information. Please <a "
-"href=\"#\">read\n"
+"href=\"#\">read\r\n"
 "\t\t\t\tmore</a> about creating a custom scheme."
 msgstr ""
 
@@ -3092,23 +3096,23 @@ msgid "Meta"
 msgstr ""
 
 #. Theme Name of the plugin/theme
-msgid "Listify"
+msgid "Recoverize Theme"
 msgstr ""
 
 #. Theme URI of the plugin/theme
-msgid "http://astoundify.com/themes/listify"
+msgid "https://www.recoverize.com"
 msgstr ""
 
 #. Description of the plugin/theme
-msgid "The last directory theme you will ever buy."
+msgid "Recoverize Homepage"
 msgstr ""
 
 #. Author of the plugin/theme
-msgid "Astoundify"
+msgid "Dane Grant"
 msgstr ""
 
 #. Author URI of the plugin/theme
-msgid "http://astoundify.com"
+msgid "http://danecando.com"
 msgstr ""
 
 #. Template Name of the plugin/theme
@@ -3161,7 +3165,7 @@ msgctxt "yearly archives date format"
 msgid "Y"
 msgstr ""
 
-#: functions.php:172
+#: functions.php:174
 #. Translators: If there are characters in your language that are not
 #. * supported by Montserrat, translate this to 'off'. Do not translate into
 #. your

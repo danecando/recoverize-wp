@@ -17,23 +17,23 @@ class RC_Stories_Taxonomies {
 		}
 
 		$labels = array(
-			'name'                       => _x( 'Programs', 'Taxonomy General Name', 'wp-mapit' ),
-			'singular_name'              => _x( 'Program', 'Taxonomy Singular Name', 'wp-mapit' ),
-			'menu_name'                  => __( 'Programs', 'wp-mapit' ),
-			'all_items'                  => __( 'All Programs', 'wp-mapit' ),
-			'parent_item'                => __( 'Parent Program', 'wp-mapit' ),
-			'parent_item_colon'          => __( 'Parent Program:', 'wp-mapit' ),
-			'new_item_name'              => __( 'New Program Name', 'wp-mapit' ),
-			'add_new_item'               => __( 'Add New Program', 'wp-mapit' ),
-			'edit_item'                  => __( 'Edit Program', 'wp-mapit' ),
-			'update_item'                => __( 'Update Program', 'wp-mapit' ),
-			'view_item'                  => __( 'View Program', 'wp-mapit' ),
-			'separate_items_with_commas' => __( 'Separate items with commas', 'wp-mapit' ),
-			'add_or_remove_items'        => __( 'Add or remove items', 'wp-mapit' ),
-			'choose_from_most_used'      => __( 'Choose from the most used', 'wp-mapit' ),
-			'popular_items'              => __( 'Popular Programs', 'wp-mapit' ),
-			'search_items'               => __( 'Search Programs', 'wp-mapit' ),
-			'not_found'                  => __( 'Not Found', 'wp-mapit' ),
+			'name'                       => _x( 'Programs', 'Taxonomy General Name', 'rc-stories' ),
+			'singular_name'              => _x( 'Program', 'Taxonomy Singular Name', 'rc-stories' ),
+			'menu_name'                  => __( 'Programs', 'rc-stories' ),
+			'all_items'                  => __( 'All Programs', 'rc-stories' ),
+			'parent_item'                => __( 'Parent Program', 'rc-stories' ),
+			'parent_item_colon'          => __( 'Parent Program:', 'rc-stories' ),
+			'new_item_name'              => __( 'New Program Name', 'rc-stories' ),
+			'add_new_item'               => __( 'Add New Program', 'rc-stories' ),
+			'edit_item'                  => __( 'Edit Program', 'rc-stories' ),
+			'update_item'                => __( 'Update Program', 'rc-stories' ),
+			'view_item'                  => __( 'View Program', 'rc-stories' ),
+			'separate_items_with_commas' => __( 'Separate items with commas', 'rc-stories' ),
+			'add_or_remove_items'        => __( 'Add or remove items', 'rc-stories' ),
+			'choose_from_most_used'      => __( 'Choose from the most used', 'rc-stories' ),
+			'popular_items'              => __( 'Popular Programs', 'rc-stories' ),
+			'search_items'               => __( 'Search Programs', 'rc-stories' ),
+			'not_found'                  => __( 'Not Found', 'rc-stories' ),
 		);
 		$args = array(
 			'labels'            => $labels,
@@ -45,7 +45,7 @@ class RC_Stories_Taxonomies {
 			'show_tagcloud'     => false,
 		);
 
-		register_taxonomy( 'program', array( 'recovery_stories', 'speaker_tapes' ), $args );
+		register_taxonomy( 'program', array( 'recovery-stories', 'speaker-tapes' ), $args );
 	}
 
 }
