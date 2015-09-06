@@ -71,7 +71,7 @@ class RC_Stories_Post_Types {
 
 	public function speaker_tapes_post_type() {
 
-		if ( post_type_exists( 'speaker_tapes' ) ) {
+		if ( post_type_exists( 'speaker-tapes' ) ) {
 			return;
 		}
 
@@ -93,7 +93,7 @@ class RC_Stories_Post_Types {
 			'not_found_in_trash' => __( 'Not found in Trash', 'rc-stories' ),
 		);
 		$args   = array(
-			'label'               => __( 'speaker_tapes', 'rc-stories' ),
+			'label'               => __( 'speaker-tapes', 'rc-stories' ),
 			'description'         => __( 'Default post type to map locations to maps', 'rc-stories' ),
 			'labels'              => $labels,
 			'supports'            => array(
