@@ -330,7 +330,7 @@ class Listify_Strings {
 				'Query limit reached' => __( 'Query limit reached', 'listify' ),
 				'Geocoding error' => __( 'Geocoding error', 'listify' ),
 				'Employer' => __( 'Employer', 'listify' ),
-				'Search %s' => __( 'Search %s', 'listify' ),
+				'Search Listings' => __( 'Search Listings', 'listify' ),
 				'All %s' => __( 'All %s', 'listify' ),
 				'Parent %s' => __( 'Parent %s', 'listify' ),
 				'Parent %s:' => __( 'Parent %s:', 'listify' ),

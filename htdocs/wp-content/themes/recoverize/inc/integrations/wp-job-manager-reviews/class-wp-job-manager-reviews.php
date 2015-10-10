@@ -26,6 +26,7 @@ class Listify_WP_Job_Manager_Reviews extends Listify_Integration {
 		add_filter( 'get_comment_text', array( $this, 'review_comment_text' ), 11, 3 );
 
 		add_action( 'listify_output_customizer_css', array( $this, 'css' ) );
+		add_action( 'single_listing_ratings', array( $this, 'the_rating' ) );
 	}
 
 	public function review_comment_text( $content, $comment, $args ) {

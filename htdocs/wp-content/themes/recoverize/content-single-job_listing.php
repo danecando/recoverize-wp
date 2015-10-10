@@ -32,7 +32,7 @@ global $job_manager;
 
 	<div id="primary" class="container">
 		<div class="row content-area">
-		
+
 			<?php if ( listify_has_integration( 'woocommerce' ) ) : ?>
 				<?php wc_print_notices(); ?>
 			<?php endif; ?>
@@ -42,55 +42,55 @@ global $job_manager;
 				<?php do_action( 'single_job_listing_start' ); ?>
 
 				<?php
-					if ( ! dynamic_sidebar( 'single-job_listing-widget-area' ) ) {
-						$defaults = array(
-							'before_widget' => '<aside class="widget widget-job_listing">',
-							'after_widget'  => '</aside>',
-							'before_title'  => '<h3 class="widget-title widget-title-job_listing %s">',
-							'after_title'   => '</h3>',
-							'widget_id'     => ''
-						);
+				if ( ! dynamic_sidebar( 'single-job_listing-widget-area' ) ) {
+					$defaults = array(
+						'before_widget' => '<aside class="widget widget-job_listing">',
+						'after_widget'  => '</aside>',
+						'before_title'  => '<h3 class="widget-title widget-title-job_listing %s">',
+						'after_title'   => '</h3>',
+						'widget_id'     => ''
+					);
 
-						the_widget(
-							'Listify_Widget_Listing_Map',
-							array(
-								'title' => __( 'Listing Location', 'listify' ),
-								'icon'  => 'compass',
-								'map'   => 1,
-								'address' => 1,
-								'phone' => 1,
-								'web' => 1
-							),
-							wp_parse_args( array( 'before_widget' => '<aside class="widget widget-job_listing listify_widget_panel_listing_map">' ), $defaults )
-						);
+					the_widget(
+						'Listify_Widget_Listing_Map',
+						array(
+							'title' => __( 'Listing Location', 'listify' ),
+							'icon'  => 'compass',
+							'map'   => 1,
+							'address' => 1,
+							'phone' => 1,
+							'web' => 1
+						),
+						wp_parse_args( array( 'before_widget' => '<aside class="widget widget-job_listing listify_widget_panel_listing_map">' ), $defaults )
+					);
 
-						the_widget(
-							'Listify_Widget_Listing_Video',
-							array(
-								'title' => __( 'Video', 'listify' ),
-								'icon'  => 'ios-film-outline',
-							),
-							wp_parse_args( array( 'before_widget' => '<aside class="widget widget-job_listing
+					the_widget(
+						'Listify_Widget_Listing_Video',
+						array(
+							'title' => __( 'Video', 'listify' ),
+							'icon'  => 'ios-film-outline',
+						),
+						wp_parse_args( array( 'before_widget' => '<aside class="widget widget-job_listing
 							listify_widget_panel_listing_video">' ), $defaults )
-						);
+					);
 
-						the_widget(
-							'Listify_Widget_Listing_Content',
-							array(
-								'title' => __( 'Listing Description', 'listify' ),
-								'icon'  => 'clipboard'
-							),
-							wp_parse_args( array( 'before_widget' => '<aside class="widget widget-job_listing listify_widget_panel_listing_content">' ), $defaults )
-						);
+					the_widget(
+						'Listify_Widget_Listing_Content',
+						array(
+							'title' => __( 'Listing Description', 'listify' ),
+							'icon'  => 'clipboard'
+						),
+						wp_parse_args( array( 'before_widget' => '<aside class="widget widget-job_listing listify_widget_panel_listing_content">' ), $defaults )
+					);
 
-						the_widget(
-							'Listify_Widget_Listing_Comments',
-							array(
-								'title' => ''
-							),
-							$defaults
-						);
-					}
+					the_widget(
+						'Listify_Widget_Listing_Comments',
+						array(
+							'title' => ''
+						),
+						$defaults
+					);
+				}
 				?>
 
 				<?php do_action( 'single_job_listing_end' ); ?>

@@ -94,7 +94,7 @@ $secondary-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
   #site-navigation {
     position: fixed;
-    top: 0;
+    top: -55px;
     left: 0;
     width: 100%;
   }
@@ -102,6 +102,13 @@ $secondary-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   #content {
     margin-top: 55px;
   }
+}
+
+#site-navigation.hidden {
+  position: fixed;
+  top: -75px;
+  left: 0;
+  width: 100%;
 }
 
 .sponsored-listing {
@@ -147,78 +154,6 @@ $secondary-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding: 5px 0;
 }
 
-.popover {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100vw;
-  z-index: 50;
-  background: rgba(25, 25, 25, .85);
-  @include display(flex);
-  @include align-items(center);
-  @include justify-content(center);
-  visibility: hidden;
-  backface-visibility: hidden;
-  overflow: hidden;
-
-  &.open {
-    visibility: visible;
-  }
-
-  .pop-contain {
-    background: white;
-    border-radius: 5px;
-    //padding: 10px;
-    width: 95%;
-    height: 90%;
-    max-width: em(1140);
-    position: relative;
-    min-width: 320px;
-    max-width: 960px;
-    -webkit-transform: scale(0.7);
-    -moz-transform: scale(0.7);
-    -ms-transform: scale(0.7);
-    transform: scale(0.7);
-    opacity: 0;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-    overflow-y: scroll;
-  }
-
-  &.open .pop-contain {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-    opacity: 1;
-  }
-
-  .pop-content {
-    //@include flex(1);
-  }
-
-  .content-container {
-    //@include flex(1);
-    height: 100%;
-    @include display(flex);
-    @include flex-direction(column);
-    @include justify-content(space-between);
-    @include align-items(space-between);
-    overflow: auto;
-  }
-
-  .pop-close {
-    position: absolute;
-    right: 10px;
-    font-size: em(24);
-    cursor: pointer;
-    z-index: 99;
-    padding: 10px;
-  }
-}
-
 /**
  * Primary Navigation
  */
@@ -227,6 +162,83 @@ $secondary-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   width: 250px;
   text-align: center;
 }
+
+/**
+ * Single Listing
+ */
+
+#listing-nav {
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+  .row .col {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .action-btns {
+    margin-bottom: 0;
+    text-align: right;
+
+    li {
+      display: inline-block;
+      margin-right: 8px;
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .action-btns a {
+    display: inline-block;
+    color: #333;
+    //background: white;
+    background: linear-gradient(360deg, darken(#F0F0ff, 0), #FFF);
+    padding: 5px 10px;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px rgba(50, 50, 50, .05);
+    transition: all 100ms ease-in-out;
+
+    &:hover {
+      transition: all 100ms ease-in-out;
+      background: linear-gradient(360deg, darken(#fff, 2), #FFF);
+      //box-shadow: 0 0 0 1px rgba(50, 50, 50, .1);
+    }
+  }
+}
+
+#listing-info {
+  background: white;
+  border-radius: 3px;
+
+  .title-section {
+    .col {
+      padding: 5px 10px;
+    }
+
+    h1 {
+      margin: 25px 15px 0px 15px;
+      display: inline-block;
+      letter-spacing: -1.15px;
+      font-size: em(44);
+    }
+
+    @media (min-width: 992px) {
+      .claimed-ribbon {
+        margin: -18px 0 0 10px;
+      }
+    }
+  }
+
+  .job_listing-rating-wrapper {
+    margin: 0 10px;
+  }
+  .job_listing-title {
+
+  }
+}
+
 
 /**
  * Footer Styles
@@ -239,12 +251,34 @@ $secondary-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: capitalize;
 }
 
+.footer-wrapper .disclaimer {
+  font-weight: 400;
+  font-family: $secondary-font !important;
+  font-size: em(14);
+  color: #aaa;
+  letter-spacing: 1.75px;
+  word-spacing: 1px;
+  text-align: justify;
+}
+
+#text-4 {
+  padding: 15px 0 0;
+}
+
+#text-4 .footer-widget-title {
+  font-size: em(17);
+}
+
 .footer-widget-column {
 
   .widget_nav_menu a {
     font-family: $secondary-font;
     letter-spacing: 1.25px;
   }
+}
+
+.site-footer-widgets {
+  padding-bottom: 5px;
 }
 
 .footer-widget-column:first-of-type {
@@ -263,28 +297,28 @@ $secondary-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
       }
 
       input[type="text"]::-webkit-input-placeholder {
-        font-weight: $secondary-font;
+        font-family: $secondary-font;
         font-weight: 400;
         letter-spacing: 1px;
       }
 
       input[type="text"]:-moz-placeholder { /* Firefox 18- */
         text-align: center;
-        font-weight: $secondary-font;
+        font-family: $secondary-font;
         font-weight: 400;
 
       }
 
       input[type="text"]::-moz-placeholder {  /* Firefox 19+ */
         text-align: center;
-        font-weight: $secondary-font;
+        font-family: $secondary-font;
         font-weight: 400;
 
       }
 
       .sumome-popup .sumome-popup-content .sumome-popup-form input[type="text"]:-ms-input-placeholder {
         text-align: center;
-        font-weight: $secondary-font;
+        font-family: $secondary-font;
         font-weight: 400;
 
       }
@@ -368,4 +402,103 @@ $secondary-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: $secondary-font;
   font-weight: 400;
 
+}
+
+/**
+ * WooCommerce / Job Manager Overrides
+ */
+
+.woocommerce-message, .job-manager-message {
+  border-color: #3D92C6;
+}
+
+.job-manager-error, .job-manager-message, .woocommerce-error li, .woocommerce-info, .woocommerce-message {
+  border-width: 1px;
+}
+
+/**
+ * Single Listing Template
+ */
+
+#listing-nav .breadcrumbs a {
+  color: #ffffff;
+}
+
+.breadcrumbs {
+  margin: 0;
+  list-style: none;
+  overflow: hidden;
+
+  li {
+    float: left;
+
+    &:first-child a {
+      padding-left: 10px;
+    }
+
+    a {
+      font-family: $secondary-font;
+      font-weight: 400;
+      letter-spacing: 1px;
+      color: white;
+      text-decoration: none;
+      padding: 5px 0 5px 55px;
+      background: #3396d1;
+      //background: hsl(202, 63%, 50%);
+      border-bottom-left-radius: 2px;
+      border-top-left-radius: 2px;
+      position: relative;
+      display: block;
+      float: left;
+      transition: background 150ms ease-in-out;
+
+      &:hover {
+        background: lighten(#3396d1, 10);
+        transition: background 150ms ease-in-out;
+      }
+
+      &:hover::after {
+        border-left: 31px solid lighten(#3396d1, 10);
+        transition: border-left 150ms ease-in-out;
+      }
+    }
+
+    a:before {
+      content: " ";
+      display: block;
+      width: 0;
+      height: 0;
+      border-top: 50px solid transparent;
+      border-bottom: 50px solid transparent;
+      border-left: 31px solid #f0f3f6;
+      position: absolute;
+      top: 50%;
+      margin-top: -50px;
+      margin-left: 1px;
+      left: 100%;
+      z-index: 1;
+    }
+
+    a:after {
+      content: " ";
+      display: block;
+      width: 0;
+      height: 0;
+      border-top: 50px solid transparent;
+      border-bottom: 50px solid transparent;
+      border-left: 31px solid hsl(202, 63%, 50%);
+      position: absolute;
+      top: 50%;
+      margin-top: -50px;
+      left: 100%;
+      z-index: 2;
+      transition: border-left 150ms ease-in-out;
+    }
+
+    &:last-of-type {
+      a {
+
+      }
+    }
+  }
 }

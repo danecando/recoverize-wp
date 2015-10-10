@@ -13,8 +13,8 @@ class Listify_Taxonomy_Breadcrumbs {
 		$defaults = array(
 			'post_id' => $post->ID,
 			'taxonomy' => '',
-			'before' => '<span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">',
-			'after' => '</span>',
+			'before' => '',
+			'after' => '',
 			'sep' => ', '
 		);
 		$this->args = wp_parse_args( $args, $defaults );
@@ -51,6 +51,7 @@ class Listify_Taxonomy_Breadcrumbs {
 			echo get_the_term_list( $this->args[ 'post_id' ], $this->args[ 'taxonomy' ], $this->args[ 'before' ], ', ',
 			$this->args[ 'after' ] );
 		} else {
+			$term_links[] = '<ul class="breadcrumbs">';
 			foreach ( $this->crumbs as $term ) {
 				$link = get_term_link( $term, $this->args[ 'taxonomy' ] );
 
@@ -58,9 +59,9 @@ class Listify_Taxonomy_Breadcrumbs {
 					return $term_links;
 				}
 
-				$term_links[] = $this->args[ 'before' ] . '<a href="' . esc_url( $link ) . '" rel="tag" itemprop="url"><span itemprop="title">' . $term->name . '</span></a>' . $this->args[ 'after' ];
+				$term_links[] = $this->args[ 'before' ] . '<li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="' . esc_url( $link ) . '" rel="tag" itemprop="url title" >' . $term->name . '</a></li>' . $this->args[ 'after' ];
 			}
-
+			$term_links[] = '</ul>';
 			echo join( $this->args[ 'sep' ], $term_links );
 		}
 	}

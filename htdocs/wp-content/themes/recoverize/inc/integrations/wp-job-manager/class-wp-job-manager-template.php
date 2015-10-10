@@ -77,6 +77,9 @@ class Listify_WP_Job_Manager_Template extends listify_Integration {
 		add_action( 'listify_content_job_listing_meta', array( $this, 'the_location_formatted' ), 20 );
 		add_action( 'listify_content_job_listing_meta', array( $this, 'the_phone' ), 25 );
 
+		// ala carte
+		add_action( 'single_listing_title', array( $this, 'the_title' ) );
+
 		remove_action( 'single_job_listing_start', 'job_listing_meta_display', 20 );
 		remove_action( 'single_job_listing_start', 'job_listing_company_display', 30 );
 
@@ -806,7 +809,7 @@ class Listify_WP_Job_Manager_Template extends listify_Integration {
 		$label = sprintf( _x( 'Update %s', 'search filters submit', 'listify' ), listify_theme_mod( 'label-plural' ) );
 
 		if ( is_front_page() ) {
-			$label = sprintf( _x( 'Search %s', 'search filters submit', 'listify' ), listify_theme_mod( 'label-plural' ) );
+			$label = sprintf( _x( 'Search Listings', 'search filters submit', 'listify' ), listify_theme_mod( 'label-plural' ) );
 		}
 
 		$refreshing = __( 'Loading...', 'listify' );

@@ -2,11 +2,16 @@
 
 jQuery(function($) {
 
-  if (!$('body').hasClass('post-type-archive-job_listing')) {
+  if (!$('body').hasClass('archive')) {
     $(window).scroll(function() {
       var scroll = $(window).scrollTop();
-      if (scroll >= 105) $('#page').addClass('fixed');
-      else $('#page').removeClass('fixed');
+
+      if (scroll >= 155 && !$('#page').hasClass('fixed')) {
+        $('#page').addClass('fixed');
+        $('#site-navigation').css('top', '-55px').animate({ top: '0' }, 175);
+      } else if (scroll < 100 && $('#page').hasClass('fixed')) {
+        $('#page').removeClass('fixed');
+      }
     });
   }
 
@@ -15,8 +20,8 @@ jQuery(function($) {
     $('#help-pop').toggleClass('open');
   });
 
-  if ($('.home .update_results').is(':disabled')) {
-    $('.home .update_results').prop('disabled', false).text('Search Listings');
-  }
+  //if ($('.home .update_results').is(':disabled')) {
+  //  $('.home .update_results').prop('disabled', false).text('Search Listings');
+  //}
 
 });

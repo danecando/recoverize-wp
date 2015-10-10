@@ -52,6 +52,8 @@ deploy.php
 /htdocs/wp-content/plugins/gravityformszapier
 /htdocs/wp-content/plugins/reveal-ids-for-wp-admin-25
 /htdocs/wp-content/plugins/woocommerce-subscription-downloads
+/htdocs/wp-content/plugins/restrict-content
+/htdocs/wp-content/plugins/sucuri-scanner
 db.php
 advanced-cache.php
 w3-total-cache-config.php
@@ -63,4 +65,5 @@ conf/nginx/nginx.conf
 config.codekit
 .codekit-cache
 .sass-cache
+.htaccess
 .DS_STORE

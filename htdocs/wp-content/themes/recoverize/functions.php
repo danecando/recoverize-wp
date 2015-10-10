@@ -101,10 +101,30 @@ function listify_widgets_init() {
 	register_widget( 'Listify_Widget_Features' );
 	register_widget( 'Listify_Widget_Feature_Callout' );
 
-	/* Standard Sidebar */
+	/* Page Sidebar */
 	register_sidebar( array(
-		'name'          => __( 'Sidebar', 'listify' ),
-		'id'            => 'widget-area-sidebar-1',
+		'name'          => __( 'Page Sidebar', 'listify' ),
+		'id'            => 'widget-area-page-sidebar-1',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h3 class="widget-title">',
+		'after_title'   => '</h3>',
+	) );
+
+	/* Blog Sidebar */
+	register_sidebar( array(
+		'name'          => __( 'Blog Sidebar', 'listify' ),
+		'id'            => 'widget-area-blog-sidebar-1',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h3 class="widget-title">',
+		'after_title'   => '</h3>',
+	) );
+
+	/* Event Sidebar */
+	register_sidebar( array(
+		'name'          => __( 'Event Sidebar', 'listify' ),
+		'id'            => 'widget-area-event-sidebar-1',
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</aside>',
 		'before_title'  => '<h3 class="widget-title">',
@@ -151,6 +171,36 @@ function listify_widgets_init() {
 		'before_title'  => '<h4 class="footer-widget-title">',
 		'after_title'   => '</h4>',
 	) );
+
+	/* Footer Column 4 */
+	register_sidebar( array(
+		'name'          => __( 'Footer Column 4 (full)', 'listify' ),
+		'id'            => 'widget-area-footer-4',
+		'before_widget' => '<aside id="%1$s" class="footer-widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h4 class="footer-widget-title">',
+		'after_title'   => '</h4>',
+	) );
+
+//	/* Footer Column 5 */
+//	register_sidebar( array(
+//		'name'          => __( 'Footer Column 5', 'listify' ),
+//		'id'            => 'widget-area-footer-5',
+//		'before_widget' => '<aside id="%1$s" class="footer-widget %2$s">',
+//		'after_widget'  => '</aside>',
+//		'before_title'  => '<h4 class="footer-widget-title">',
+//		'after_title'   => '</h4>',
+//	) );
+//
+//	/* Footer Column 6 */
+//	register_sidebar( array(
+//		'name'          => __( 'Footer Column 6', 'listify' ),
+//		'id'            => 'widget-area-footer-6',
+//		'before_widget' => '<aside id="%1$s" class="footer-widget %2$s">',
+//		'after_widget'  => '</aside>',
+//		'before_title'  => '<h4 class="footer-widget-title">',
+//		'after_title'   => '</h4>',
+//	) );
 }
 add_action( 'widgets_init', 'listify_widgets_init' );
 
