@@ -30,11 +30,9 @@ get_header(); ?>
 
 			</main>
 
-			<?php
-			dynamic_sidebar( 'widget-area-page-sidebar-1' );
-			//get_sidebar();
-			?>
-
+			<div id="secondary" class="widget-area col-md-4 col-sm-5 col-xs-12" role="complementary">
+				<?php dynamic_sidebar( 'widget-area-page-sidebar-1' ); ?>
+			</div>
 		</div>
 	</div>
 
