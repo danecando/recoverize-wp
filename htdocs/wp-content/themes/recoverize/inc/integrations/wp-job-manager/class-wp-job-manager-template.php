@@ -353,7 +353,7 @@ class Listify_WP_Job_Manager_Template extends listify_Integration {
 		global $listify_strings;
 
 		$link = sprintf( 
-			'<a href="%s">' . __( 'Browse %s', 'listify' ) . '</a>',
+			'<a href="%s">' . __( 'Browse Rehabs', 'listify' ) . '</a>',
 			get_post_type_archive_link( 'job_listing' ), 
 			str_replace( $listify_strings->label( 'singular' ) . ' ', '', $taxonomy->labels->name )
 		);
