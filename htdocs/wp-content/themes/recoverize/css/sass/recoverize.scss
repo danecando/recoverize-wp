@@ -53,7 +53,7 @@ $secondary-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .help-line {
-  font-family: 'Helvetica Neue';
+  font-family: $secondary-font;
   font-weight: bold;
   font-size: 24px;
 }
@@ -352,7 +352,7 @@ $secondary-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .sumome-popup-heading {
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+  font-family: $secondary-font !important;
   font-weight: bold;
   letter-spacing: 1px;
   color: rgb(18, 56, 101);
