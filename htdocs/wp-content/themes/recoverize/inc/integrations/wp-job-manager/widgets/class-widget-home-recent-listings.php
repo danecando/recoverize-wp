@@ -89,7 +89,7 @@ class Listify_Widget_Recent_Listings extends Listify_Widget {
 		</ul>
 
 		<?php
-		echo '<div class="sponsored-listing"><span>Want to become a Recoverize Sponsored Treatment Provider? <a href="#">Click here</a> to learn more.</span></div>';
+		echo '<div class="sponsored-listing"><span>Want to become a Recoverize Sponsored Treatment Provider? <a href="' . site_url( '/advertise', 'https' ) . '">Click here</a> to learn more.</span></div>';
 		echo $after_widget;
 
 
