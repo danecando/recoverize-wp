@@ -507,6 +507,12 @@ $secondary-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   display: none !important;
 }
 
+.page-id-1675 #primary,
+.page-id-1675 .container,
+.page-id-1675 .page-cover {
+  display: none !important;
+}
+
 @media (max-width: 768px) {
   #icon-logo {
     display: none;
