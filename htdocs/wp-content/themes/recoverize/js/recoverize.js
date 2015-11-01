@@ -2,7 +2,7 @@
 
 jQuery(function($) {
 
-  if (!$('body').hasClass('archive')) {
+  if (!$('body').hasClass('archive') && !isMobile.any) {
     $(window).scroll(function() {
       var scroll = $(window).scrollTop();
 
