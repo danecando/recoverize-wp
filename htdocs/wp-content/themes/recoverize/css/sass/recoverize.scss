@@ -503,6 +503,10 @@ $secondary-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
 }
 
+.jp-relatedposts-post-date {
+  display: none;
+}
+
 @media (max-width: 768px) {
   #icon-logo {
     display: none;

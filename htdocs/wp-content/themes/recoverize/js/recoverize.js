@@ -2,6 +2,10 @@
 
 jQuery(function($) {
 
+  // jp related change
+  $('.jp-relatedposts-post-context').text('Member Favorite');
+  $('.jp-relatedposts-headline em').text('Popular Rehabs');
+
   if (!$('body').hasClass('archive') && !isMobile.any) {
     $(window).scroll(function() {
       var scroll = $(window).scrollTop();
