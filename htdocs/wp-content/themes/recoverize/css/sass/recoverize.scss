@@ -503,8 +503,8 @@ $secondary-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
 }
 
-.jp-relatedposts-post-date {
-  display: none;
+.single-job_listing #jp-relatedposts .jp-relatedposts-items .jp-relatedposts-post .jp-relatedposts-post-date {
+  display: none !important;
 }
 
 @media (max-width: 768px) {
