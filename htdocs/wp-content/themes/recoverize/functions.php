@@ -57,7 +57,8 @@ function listify_setup() {
 		'secondary' => __( 'Secondary Menu', 'listify' ),
 		'tertiary' => __( 'Tertiary Menu', 'listify' ),
 		'social'  => __( 'Social Menu (footer)', 'listify' ),
-		'top-bar' => __( 'Top Bar Menu', 'listify')
+		'top-bar-right' => __( 'Top Bar Right', 'listify'),
+		'top-bar-left' => __( 'Top Bar Left', 'listify')
 	) );
 
 	/*
