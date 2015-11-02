@@ -100,10 +100,10 @@ if ( ! class_exists( 'RC_Stories' ) ):
 		 * @return void
 		 */
 		public function frontend_scripts() {
-			wp_enqueue_style( 'rec-speaker-tapes-style', plugins_url( 'assets/css/rc-stories.css', __FILE__ ) );
-			wp_enqueue_script( 'rec-speaker-tapes-script', plugins_url( 'assets/js/rc-stories.js', __FILE__ ), array(
-				'jquery'
-			), '1.0.0', true );
+//			wp_enqueue_style( 'rec-speaker-tapes-style', plugins_url( 'assets/css/rc-stories.css', __FILE__ ) );
+//			wp_enqueue_script( 'rec-speaker-tapes-script', plugins_url( 'assets/js/rc-stories.js', __FILE__ ), array(
+//				'jquery'
+//			), '1.0.0', true );
 		}
 
 	}
