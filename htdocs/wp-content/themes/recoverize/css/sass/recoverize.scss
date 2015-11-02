@@ -559,6 +559,13 @@ $secondary-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
 }
 
+#top-bar .top-nav.nav-left ul li {
+  a {
+    background: none;
+    padding: 6px 0;
+  }
+}
+
 @media (max-width: 768px) {
   #top-bar {
     background: lighten(#123865, 5);
