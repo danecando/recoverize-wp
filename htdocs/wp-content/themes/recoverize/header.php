@@ -27,7 +27,7 @@
 			<div id="top-bar">
 				<div class="container">
 					<?php wp_nav_menu( array(
-						'theme_location' => 'top-bar',
+						'theme_location' => 'top-bar-left',
 						'container_class' => 'top-nav nav-left col-xs-6',
 						'menu_class' => 'col-xs-6',
 						'fallback_cb' => '',
@@ -35,7 +35,7 @@
 					) ); ?>
 					<?php
 					wp_nav_menu( array(
-						'theme_location' => 'top-bar',
+						'theme_location' => 'top-bar-right',
 						'container_class' => 'top-nav nav-right col-xs-6',
 						'depth'	=> 1
 					) );
