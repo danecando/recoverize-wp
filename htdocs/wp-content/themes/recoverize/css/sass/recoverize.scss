@@ -513,7 +513,61 @@ $secondary-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   display: none !important;
 }
 
+.primary-header {
+  .container {
+    padding-bottom: 5px;
+  }
+}
+.primary-header .primary-header-inner {
+  height: 65px;
+}
+#top-bar {
+  background: #123865;
+  border-bottom: 0;
+  text-align: right;
+  clear: both;
+
+  ul {
+    padding: 0;
+    margin-top: 5px;
+    li {
+      float: left;
+      margin-right: 2px;
+      a {
+        border-radius: 2px;
+        background: lighten(#123865, 1.5);
+        font-family: $secondary-font;
+        font-weight: 300;
+        letter-spacing: 1.25px;
+        word-spacing: 0;
+        padding: 6px 10px;
+      }
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .top-nav {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    li:last-of-type {
+      margin-right: 0;
+    }
+  }
+}
+
 @media (max-width: 768px) {
+  #top-bar {
+    background: lighten(#123865, 5);
+    border-bottom: 2px solid lighten(#123865, 7);
+  }
+  .top-bar-nav {
+    text-align: center;
+    width: 100%;
+  }
   #icon-logo {
     display: none;
   }
@@ -521,6 +575,32 @@ $secondary-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-align: left;
   }
   .secondary.nav-menu {
+    width: 100%;
+  }
+  .help-cta-copy {
+    display: none;
+  }
+
+  #help-head {
+    float: none;
+    text-align: center;
+    background: #123865;
+  }
+  .help-line {
+    padding: 5px 15px;
+    border-radius: 26px;
+    color: #123865;
+    background: #fff;
+  }
+  .site-branding {
+    text-align: center;
+  }
+
+  .top-nav.nav-left {
+    display: none;
+  }
+  .top-nav.nav-right {
+    text-align: center;
     width: 100%;
   }
 }

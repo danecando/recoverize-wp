@@ -26,10 +26,18 @@
 		<header id="masthead" class="site-header" role="banner">
 			<div id="top-bar">
 				<div class="container">
+					<?php wp_nav_menu( array(
+						'theme_location' => 'top-bar',
+						'container_class' => 'top-nav nav-left col-xs-6',
+						'menu_class' => 'col-xs-6',
+						'fallback_cb' => '',
+						'depth' => 1
+					) ); ?>
 					<?php
 					wp_nav_menu( array(
 						'theme_location' => 'top-bar',
-						'container_class' => 'top-bar-nav'
+						'container_class' => 'top-nav nav-right col-xs-6',
+						'depth'	=> 1
 					) );
 					?>
 				</div>
