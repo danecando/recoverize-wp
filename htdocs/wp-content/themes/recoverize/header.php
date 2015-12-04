@@ -101,7 +101,8 @@
 							) );
 						?>
 						<div id="help-head">
-							<span class="help-cta-copy">Get Treatment</span> <a href="tel:18004038932" class="help-line">1-844-311-7236</a>
+							<span class="help-cta-copy">Contact</span> <a href="mailto:support@recoverize.com" class="help-line">support</a>
+<!--							<span class="help-cta-copy">Get Treatment</span> <a href="tel:18004038932" class="help-line">1-844-311-7236</a>-->
 						</div>
 					</div>
 
